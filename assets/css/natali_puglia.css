@@ -278,7 +278,7 @@ body.tlr-b {
 }
 
 .tlr-tutte a:hover {
-  background: #31353C;
+  background: rgba(255, 255, 255, 0.18);
   border-color: var(--tlr-oro);
   transform: translateY(-2px);
 }
@@ -775,9 +775,11 @@ body.tlr-b {
 }
 
 .tlr-btn-link:hover {
-  background: var(--tlr-nero);
-  color: #fff;
-  border-color: var(--tlr-nero);
+  background: var(--tlr-oro);
+  color: #16181C;
+  border-color: var(--tlr-oro);
+  font-weight: 700;
+  box-shadow: 0 2px 8px rgba(217, 144, 8, 0.25);
 }
 
 /* --------------------------------------------------------------------------
@@ -991,11 +993,9 @@ html.tlr-locked body > .tlr-lato-pillola {
   position: fixed;
   inset: 0;
   z-index: 99999;
-  background-color: #121418;
-  background-image: 
-    radial-gradient(ellipse at 50% 20%, rgba(217, 144, 8, 0.15) 0%, transparent 60%),
-    radial-gradient(circle at 85% 85%, rgba(255, 255, 255, 0.05) 0%, transparent 40%),
-    linear-gradient(180deg, #16181C 0%, #0E1012 100%);
+  background-color: rgba(30, 41, 59, 0.72);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1017,7 +1017,8 @@ html.tlr-locked body > .tlr-lato-pillola {
   max-width: 440px;
   background: #FFFFFF;
   border-radius: var(--tlr-r-pannello, 16px);
-  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.6), 0 0 0 1px rgba(255, 255, 255, 0.1);
+  border: 2px solid var(--tlr-oro, #D99008);
+  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.25);
   padding: 40px 36px 32px;
   position: relative;
   text-align: center;
