@@ -25,6 +25,16 @@
   function init() {
     setupEventListeners();
     applyFilters();
+
+    // Se la pagina ha l'ancora #programma, atterra direttamente sulla lista eventi
+    if (window.location.hash === '#programma') {
+      setTimeout(function () {
+        var progSec = document.getElementById('programma');
+        if (progSec) {
+          progSec.scrollIntoView({ behavior: 'smooth' });
+        }
+      }, 150);
+    }
   }
 
   function setupEventListeners() {
@@ -35,25 +45,41 @@
       });
     }
 
-    // Province filter buttons in sidebar and hero
+    // Al click di ogni box provincia (in alto nell'hero o nel menu laterale)
+    // atterra direttamente sulla lista eventi filtrata
     document.querySelectorAll('[data-filtro-provincia]').forEach(function (btn) {
       btn.addEventListener('click', function (e) {
-        var prov = this.getAttribute('data-filtro-provincia');
-        // If clicking hero link that points to another page, let normal link work unless on index
-        if (this.classList.contains('hero-prov-link')) {
-          var href = this.getAttribute('href');
-          if (href && href !== '#' && href !== 'index.html' && window.location.pathname.indexOf(href) === -1 && !href.startsWith('#')) {
-            return; // allow browser to navigate to dedicated page
-          }
-        }
         e.preventDefault();
+        var prov = this.getAttribute('data-filtro-provincia');
         setProvince(prov);
         var progSec = document.getElementById('programma');
         if (progSec) {
           progSec.scrollIntoView({ behavior: 'smooth' });
         }
+        if (window.history && window.history.replaceState) {
+          window.history.replaceState(null, '', '#programma');
+        }
       });
     });
+
+    // Bottone fluttuante "Torna su"
+    var tornaSuBtn = document.getElementById('tlr-torna-su');
+    if (tornaSuBtn) {
+      window.addEventListener('scroll', function () {
+        if (window.scrollY > 350) {
+          tornaSuBtn.classList.add('is-visible');
+        } else {
+          tornaSuBtn.classList.remove('is-visible');
+        }
+      }, { passive: true });
+
+      tornaSuBtn.addEventListener('click', function () {
+        window.scrollTo({
+          top: 0,
+          behavior: 'smooth'
+        });
+      });
+    }
 
     // Category filter buttons
     document.querySelectorAll('[data-filtro-cat]').forEach(function (btn) {
@@ -115,6 +141,9 @@
         link.classList.remove('is-active');
       }
     });
+    if (eyeBrow) {
+      eyeBrow.textContent = (prov === 'Tutte le province') ? 'Tutta la Puglia' : ('Provincia di ' + prov);
+    }
     applyFilters();
   }
 

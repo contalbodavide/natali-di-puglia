@@ -42,14 +42,6 @@
   /* Tipografia della locandina */
   --tlr-font-titoli: 'Outfit', 'Plus Jakarta Sans', 'Inter', system-ui, sans-serif;
   --tlr-font-testo: 'Plus Jakarta Sans', 'Inter', system-ui, sans-serif;
-
-  /* Colori Identitari Province */
-  --col-bari: #2563EB;
-  --col-bat: #0891B2;
-  --col-brindisi: #059669;
-  --col-foggia: #D97706;
-  --col-lecce: #DB2777;
-  --col-taranto: #7C3AED;
 }
 
 *, *::before, *::after {
@@ -98,7 +90,7 @@ body.tlr-b {
 }
 
 /* --------------------------------------------------------------------------
-   1. HERO BANNER — STILE ROSSANI CON GRAFICA NOTTURNA DELLA CAMPAGNA
+   1. HERO BANNER — STILE ROSSANI CON GRAFICA NOTTURNA E LOGO REGIONE PUGLIA
    -------------------------------------------------------------------------- */
 .tlr-hero {
   position: relative;
@@ -166,7 +158,7 @@ body.tlr-b {
 .tlr-hero-logo-puglia {
   height: 32px;
   width: auto;
-  filter: brightness(0) invert(1); /* Logo bianco candido */
+  filter: brightness(0) invert(1);
 }
 
 .tlr-hero-brand-name {
@@ -218,8 +210,19 @@ body.tlr-b {
   color: #fff;
 }
 
+/* Sottotitolo dedicato Foggia su esattamente 2 righe */
+.tlr-hero-sub--foggia {
+  max-width: 1080px;
+  line-height: 1.5;
+}
+@media (max-width: 768px) {
+  .tlr-hero-sub--foggia br {
+    display: none;
+  }
+}
+
 /* --------------------------------------------------------------------------
-   2. TESSERE DELLE PROVINCE NELL'INTESTAZIONE (Identiche a Rossani)
+   2. TESSERE DELLE PROVINCE NELL'INTESTAZIONE
    -------------------------------------------------------------------------- */
 .tlr-tutte {
   margin-top: 16px;
@@ -325,7 +328,7 @@ body.tlr-b {
 }
 
 /* --------------------------------------------------------------------------
-   3. PRESENTAZIONE: IL PROGETTO (Editoriale, fondo crema come Rossani)
+   3. PRESENTAZIONE: IL PROGETTO
    -------------------------------------------------------------------------- */
 .tlr-pres {
   padding: var(--tlr-s-70) 0 0;
@@ -400,10 +403,10 @@ body.tlr-b {
 }
 
 /* --------------------------------------------------------------------------
-   4. PROGRAMMA: GRIGLIA, BARRA LATERALE E TARGHE APPUNTAMENTI
+   4. PROGRAMMA: SENZA SCROLL SUI FILTRI (Espansione naturale)
    -------------------------------------------------------------------------- */
 .tlr-prog {
-  padding: var(--tlr-s-70) 0;
+  padding: var(--tlr-s-70) 0 0;
 }
 
 .tlr-prog-griglia {
@@ -419,7 +422,7 @@ body.tlr-b {
   }
 }
 
-/* PANNELLO LATERALE (BIANCO SU FONDO CREMA) */
+/* PANNELLO LATERALE: NESSUNO SCROLL INTERNO, naturale e pulito */
 .tlr-lato-pannello {
   background: var(--tlr-bianco);
   border-radius: var(--tlr-r-pannello);
@@ -428,8 +431,7 @@ body.tlr-b {
   padding: 24px;
   position: sticky;
   top: 20px;
-  max-height: calc(100vh - 40px);
-  overflow-y: auto;
+  overflow: visible; /* Eliminato lo scroll interno dei filtri */
 }
 
 .tlr-lato-tit {
@@ -445,8 +447,8 @@ body.tlr-b {
 }
 
 .tlr-lato-sec {
-  margin-bottom: 22px;
-  padding-bottom: 18px;
+  margin-bottom: 20px;
+  padding-bottom: 16px;
   border-bottom: 1px solid var(--tlr-linea-sottile);
 }
 .tlr-lato-sec:last-child {
@@ -778,7 +780,83 @@ body.tlr-b {
   border-color: var(--tlr-nero);
 }
 
-/* MOBILE PILL (Identica alla Rossani) */
+/* --------------------------------------------------------------------------
+   6. BANNER PUGLIA CULTURA (Come nel sito Rossani)
+   -------------------------------------------------------------------------- */
+.tlr-chiusura {
+  margin: var(--tlr-s-70) max(16px, calc((100% - 1320px) / 2)) 0;
+  padding: 0 var(--tlr-margine);
+}
+
+.tlr-chiusura + .tlr-piede {
+  margin-top: 24px;
+}
+
+.tlr-chiusura-link {
+  display: block;
+  overflow: hidden;
+  border-radius: var(--tlr-r-pannello);
+  background: #1F55B5;
+  box-shadow: var(--tlr-ombra-pannello);
+  transition: transform .2s, box-shadow .2s;
+}
+
+.tlr-chiusura-link img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.tlr-chiusura-link:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 0 0 3px var(--tlr-azzurro), var(--tlr-ombra-pannello);
+}
+
+/* --------------------------------------------------------------------------
+   7. BOTTONE FLUTTUANTE "TORNA SU" CON FRECCIA
+   -------------------------------------------------------------------------- */
+.tlr-torna-su {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: var(--tlr-nero);
+  color: #FFFFFF;
+  border: 2px solid var(--tlr-oro);
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 999;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(12px);
+  transition: opacity 0.25s, visibility 0.25s, transform 0.25s, background-color 0.15s, border-color 0.15s;
+}
+
+.tlr-torna-su.is-visible {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.tlr-torna-su:hover {
+  background: var(--tlr-oro);
+  border-color: #FFFFFF;
+  color: var(--tlr-nero);
+  transform: translateY(-2px);
+}
+
+.tlr-torna-su svg {
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
+}
+
+/* MOBILE PILL */
 .tlr-lato-pillola {
   display: none;
   position: fixed;
@@ -810,6 +888,7 @@ body.tlr-b {
     border-radius: 0;
     z-index: 1000;
     border: none;
+    overflow-y: auto;
   }
   .tlr-lato-pannello.is-open { display: block; }
   .tlr-close-btn {
@@ -826,7 +905,7 @@ body.tlr-b {
 }
 
 /* --------------------------------------------------------------------------
-   6. PIÈ DI PAGINA (Con logo Regione Puglia in SVG originale)
+   8. PIÈ DI PAGINA UFFICIALE CON LOGHI E INFORMAZIONI PRATICHE
    -------------------------------------------------------------------------- */
 .tlr-piede {
   margin-top: auto;
