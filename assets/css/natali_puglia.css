@@ -1,0 +1,891 @@
+/* ==========================================================================
+   Natali di Puglia — Foglio di Stile Ufficiale
+   Stile editoriale fedele a Tutta la Rossani (Puglia Culture)
+   e alla campagna ufficiale "Segui le stelle, festeggia in Puglia."
+   ========================================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700;900&display=swap');
+
+:root {
+  /* Palette Ufficiale Tutta la Rossani / Puglia Culture */
+  --tlr-pagina: #FBFAF3;            /* Crema caldo di fondo della pagina */
+  --tlr-bianco: #FFFFFF;            /* Bianco puro per schede e pannelli */
+  --tlr-grigio-caldo: #F5F2EA;      /* Grigio caldo per hover e pillole */
+  --tlr-nero: #16181C;              /* Nero caldo/antracite per totem e hero */
+  --tlr-nero-2: #24272C;            /* Nero secondario per tessere */
+  --tlr-oro: #D99008;               /* Oro caldo della stella e delle luci */
+  --tlr-oro-scuro: #B87600;
+  --tlr-oro-chiaro: #FDF4E1;
+  --tlr-azzurro: #2F7C9E;           /* Azzurro identità Puglia */
+  --tlr-azzurro-chiaro: #E6F3F7;
+  --tlr-grigio-testo: #4B4B4B;      /* Grigio scuro leggibile per testi */
+  --tlr-grigio-su-nero: #9CA3AF;    /* Grigio chiaro per sottotitoli su fondo scuro */
+  --tlr-linea: rgba(22, 24, 28, 0.12);
+  --tlr-linea-sottile: rgba(22, 24, 28, 0.07);
+
+  /* Raggi e ombre */
+  --tlr-r-xs: 6px;
+  --tlr-r-voce: 12px;
+  --tlr-r-md: 16px;
+  --tlr-r-card: 20px;
+  --tlr-r-pannello: 24px;
+  --tlr-r-pill: 999px;
+  --tlr-piega: clamp(34px, 4.5vw, 64px);
+  --tlr-ombra-pannello: 0 1px 2px rgba(74, 52, 30, .06), 0 10px 30px rgba(74, 52, 30, .08);
+  --tlr-ombra-scheda: 0 1px 2px rgba(74, 52, 30, .05), 0 6px 18px rgba(74, 52, 30, .07);
+
+  /* Spaziature fluide */
+  --tlr-margine: clamp(16px, 4vw, 48px);
+  --tlr-s-50: clamp(28px, 4vw, 48px);
+  --tlr-s-70: clamp(48px, 6vw, 84px);
+
+  /* Tipografia della locandina */
+  --tlr-font-titoli: 'Outfit', 'Plus Jakarta Sans', 'Inter', system-ui, sans-serif;
+  --tlr-font-testo: 'Plus Jakarta Sans', 'Inter', system-ui, sans-serif;
+
+  /* Colori Identitari Province */
+  --col-bari: #2563EB;
+  --col-bat: #0891B2;
+  --col-brindisi: #059669;
+  --col-foggia: #D97706;
+  --col-lecce: #DB2777;
+  --col-taranto: #7C3AED;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: var(--tlr-font-testo);
+  background-color: var(--tlr-pagina);
+  color: var(--tlr-nero);
+  line-height: 1.5;
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+}
+
+body.tlr-b {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--tlr-pagina);
+}
+
+.tlr-in {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 0 var(--tlr-margine);
+  width: 100%;
+}
+
+.tlr-salta {
+  position: absolute;
+  top: -100px;
+  left: 16px;
+  background: var(--tlr-oro);
+  color: #fff;
+  padding: 8px 16px;
+  z-index: 999;
+  border-radius: var(--tlr-r-xs);
+  font-weight: 700;
+  text-decoration: none;
+}
+.tlr-salta:focus {
+  top: 16px;
+}
+
+/* --------------------------------------------------------------------------
+   1. HERO BANNER — STILE ROSSANI CON GRAFICA NOTTURNA DELLA CAMPAGNA
+   -------------------------------------------------------------------------- */
+.tlr-hero {
+  position: relative;
+  margin: 16px 16px 0;
+  border-radius: var(--tlr-r-pannello) 0 var(--tlr-r-pannello) var(--tlr-r-pannello);
+  background: var(--tlr-nero);
+  color: #fff;
+  padding: 28px 0 var(--tlr-s-50);
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* L'iconico angolo piegato (segno distintivo di Rossani) */
+.tlr-hero::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: var(--tlr-piega);
+  height: var(--tlr-piega);
+  background: linear-gradient(225deg, var(--tlr-pagina) 50%, var(--tlr-oro) 50%);
+  pointer-events: none;
+  z-index: 10;
+}
+
+/* Texture stellata di fondo della campagna */
+.tlr-hero-backdrop {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: linear-gradient(180deg, rgba(22, 24, 28, 0.35) 0%, rgba(22, 24, 28, 0.85) 60%, var(--tlr-nero) 100%),
+                    url('../img/natali_puglia_hero.jpg');
+  background-size: cover;
+  background-position: center 25%;
+  opacity: 0.85;
+  z-index: 1;
+}
+
+.tlr-hero .tlr-in {
+  position: relative;
+  z-index: 2;
+}
+
+.tlr-hero-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+  font-size: 0.875rem;
+  letter-spacing: -0.01em;
+  margin-bottom: var(--tlr-s-50);
+  padding-bottom: 16px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.tlr-hero-brand {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.tlr-hero-logo-puglia {
+  height: 32px;
+  width: auto;
+  filter: brightness(0) invert(1); /* Logo bianco candido */
+}
+
+.tlr-hero-brand-name {
+  font-weight: 700;
+  font-size: 0.9375rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--tlr-oro);
+}
+
+.tlr-hero-date {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #fff;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 6px 16px;
+  border-radius: var(--tlr-r-pill);
+  backdrop-filter: blur(6px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.tlr-hero-tit {
+  font-family: var(--tlr-font-titoli);
+  font-size: clamp(2.3rem, 5.5vw, 4.6rem);
+  font-weight: 900;
+  line-height: 1.05;
+  letter-spacing: -0.03em;
+  margin-bottom: 12px;
+  max-width: 950px;
+}
+
+.tlr-punto {
+  color: var(--tlr-oro);
+  display: inline-block;
+}
+
+.tlr-hero-sub {
+  font-size: clamp(1.1rem, 2vw, 1.45rem);
+  color: var(--tlr-grigio-su-nero);
+  max-width: 820px;
+  line-height: 1.4;
+  margin-bottom: var(--tlr-s-50);
+}
+
+.tlr-hero-sub strong {
+  color: #fff;
+}
+
+/* --------------------------------------------------------------------------
+   2. TESSERE DELLE PROVINCE NELL'INTESTAZIONE (Identiche a Rossani)
+   -------------------------------------------------------------------------- */
+.tlr-tutte {
+  margin-top: 16px;
+}
+
+.tlr-tutte ul {
+  list-style: none;
+  margin: 0 calc(-1 * var(--tlr-margine));
+  padding: 0 var(--tlr-margine);
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 78%;
+  gap: 8px;
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+}
+.tlr-tutte ul::-webkit-scrollbar { display: none; }
+
+@media (min-width: 640px) {
+  .tlr-tutte ul { grid-auto-columns: 45%; }
+}
+@media (min-width: 1024px) {
+  .tlr-tutte ul {
+    grid-auto-flow: dense;
+    grid-template-columns: repeat(7, 1fr);
+    margin: 0;
+    padding: 0;
+    overflow: visible;
+  }
+}
+
+.tlr-tutte li {
+  scroll-snap-align: start;
+}
+
+.tlr-tutte a {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  gap: 4px;
+  height: 100%;
+  min-height: 114px;
+  padding: 14px 16px 14px 16px;
+  border-radius: var(--tlr-r-voce);
+  background: var(--tlr-nero-2);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  text-decoration: none;
+  transition: background-color .15s, border-color .15s, transform .15s;
+}
+
+.tlr-tutte a:hover {
+  background: #31353C;
+  border-color: var(--tlr-oro);
+  transform: translateY(-2px);
+}
+
+.tlr-tutte a.is-active {
+  background: var(--tlr-bianco);
+  border-color: var(--tlr-bianco);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.35);
+}
+
+.tlr-tutte-k {
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--tlr-grigio-su-nero);
+}
+.tlr-tutte a.is-active .tlr-tutte-k {
+  color: var(--tlr-grigio-testo);
+}
+
+.tlr-tutte-v {
+  font-family: var(--tlr-font-titoli);
+  font-size: clamp(1.1rem, 1.4vw, 1.35rem);
+  font-weight: 800;
+  line-height: 1.1;
+  text-transform: uppercase;
+  letter-spacing: -0.02em;
+  color: #fff;
+}
+.tlr-tutte a.is-active .tlr-tutte-v {
+  color: var(--tlr-nero);
+}
+
+.tlr-tutte-cnt {
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: var(--tlr-r-pill);
+  background: rgba(255, 255, 255, 0.12);
+  color: var(--tlr-oro);
+  margin-top: 4px;
+}
+.tlr-tutte a.is-active .tlr-tutte-cnt {
+  background: var(--tlr-grigio-caldo);
+  color: var(--tlr-oro-scuro);
+}
+
+/* --------------------------------------------------------------------------
+   3. PRESENTAZIONE: IL PROGETTO (Editoriale, fondo crema come Rossani)
+   -------------------------------------------------------------------------- */
+.tlr-pres {
+  padding: var(--tlr-s-70) 0 0;
+}
+
+.tlr-etichetta {
+  font-size: 0.8125rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--tlr-oro-scuro);
+  margin-bottom: 10px;
+}
+
+.tlr-attacco {
+  font-family: var(--tlr-font-titoli);
+  font-size: clamp(1.35rem, 2.2vw, 1.85rem);
+  font-weight: 400;
+  line-height: 1.35;
+  letter-spacing: -0.02em;
+  color: var(--tlr-nero);
+  max-width: 980px;
+}
+
+.tlr-attacco strong {
+  font-weight: 800;
+  color: var(--tlr-nero);
+}
+
+.tlr-concetti-box {
+  margin-top: var(--tlr-s-50);
+}
+
+.tlr-concetti {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 16px;
+}
+
+.tlr-concetto-item {
+  background: var(--tlr-bianco);
+  border-radius: var(--tlr-r-md);
+  padding: 24px;
+  border: 1px solid var(--tlr-linea);
+  box-shadow: var(--tlr-ombra-scheda);
+  position: relative;
+}
+
+.tlr-concetto-item::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 24px;
+  right: 24px;
+  height: 3px;
+  background: var(--tlr-oro);
+  border-radius: var(--tlr-r-pill);
+}
+
+.tlr-concetto-item dt {
+  font-family: var(--tlr-font-titoli);
+  font-size: 1.15rem;
+  font-weight: 800;
+  color: var(--tlr-nero);
+  margin-bottom: 8px;
+}
+
+.tlr-concetto-item dd {
+  font-size: 0.9375rem;
+  color: var(--tlr-grigio-testo);
+  line-height: 1.5;
+}
+
+/* --------------------------------------------------------------------------
+   4. PROGRAMMA: GRIGLIA, BARRA LATERALE E TARGHE APPUNTAMENTI
+   -------------------------------------------------------------------------- */
+.tlr-prog {
+  padding: var(--tlr-s-70) 0;
+}
+
+.tlr-prog-griglia {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 32px;
+}
+
+@media (min-width: 1024px) {
+  .tlr-prog-griglia {
+    grid-template-columns: 310px minmax(0, 1fr);
+    align-items: start;
+  }
+}
+
+/* PANNELLO LATERALE (BIANCO SU FONDO CREMA) */
+.tlr-lato-pannello {
+  background: var(--tlr-bianco);
+  border-radius: var(--tlr-r-pannello);
+  box-shadow: var(--tlr-ombra-pannello);
+  border: 1px solid var(--tlr-linea);
+  padding: 24px;
+  position: sticky;
+  top: 20px;
+  max-height: calc(100vh - 40px);
+  overflow-y: auto;
+}
+
+.tlr-lato-tit {
+  font-family: var(--tlr-font-titoli);
+  font-size: 1.5rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  margin-bottom: 20px;
+  color: var(--tlr-nero);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tlr-lato-sec {
+  margin-bottom: 22px;
+  padding-bottom: 18px;
+  border-bottom: 1px solid var(--tlr-linea-sottile);
+}
+.tlr-lato-sec:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+/* Cerca testuale */
+.tlr-search-box {
+  position: relative;
+  margin-bottom: 18px;
+}
+
+.tlr-search-input {
+  width: 100%;
+  padding: 10px 14px 10px 36px;
+  background: var(--tlr-grigio-caldo);
+  border: 1px solid var(--tlr-linea);
+  border-radius: var(--tlr-r-voce);
+  font-family: inherit;
+  font-size: 0.9375rem;
+  color: var(--tlr-nero);
+  transition: all 0.15s;
+}
+.tlr-search-input:focus {
+  outline: none;
+  background: #fff;
+  border-color: var(--tlr-oro);
+  box-shadow: 0 0 0 3px var(--tlr-oro-chiaro);
+}
+
+.tlr-search-ico {
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 15px;
+  height: 15px;
+  fill: #888;
+  pointer-events: none;
+}
+
+/* Voci di menu della barra laterale */
+.tlr-menu-voci {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.tlr-mv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 12px;
+  border-radius: var(--tlr-r-xs);
+  text-decoration: none;
+  color: var(--tlr-grigio-testo);
+  font-size: 0.9rem;
+  font-weight: 500;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  text-align: left;
+  width: 100%;
+  transition: all 0.12s;
+}
+
+.tlr-mv:hover {
+  background: var(--tlr-grigio-caldo);
+  color: var(--tlr-nero);
+}
+
+.tlr-mv.is-current {
+  background: var(--tlr-nero);
+  color: #fff;
+  font-weight: 700;
+}
+
+.tlr-mv-c {
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 1px 7px;
+  border-radius: var(--tlr-r-pill);
+  background: var(--tlr-grigio-caldo);
+  color: var(--tlr-grigio-testo);
+}
+.tlr-mv.is-current .tlr-mv-c {
+  background: var(--tlr-oro);
+  color: #fff;
+}
+
+.tlr-reset-btn {
+  width: 100%;
+  padding: 9px;
+  background: transparent;
+  border: 1px dashed var(--tlr-linea);
+  border-radius: var(--tlr-r-voce);
+  font-size: 0.8125rem;
+  font-weight: 600;
+  color: var(--tlr-grigio-testo);
+  cursor: pointer;
+  margin-top: 10px;
+  transition: all 0.15s;
+}
+.tlr-reset-btn:hover {
+  background: var(--tlr-grigio-caldo);
+  color: var(--tlr-nero);
+  border-color: var(--tlr-nero);
+}
+
+/* --------------------------------------------------------------------------
+   5. TIMELINE APPUNTAMENTI (STRUTTURA A FASCE DI ROSSANI)
+   -------------------------------------------------------------------------- */
+.tlr-vista-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 24px;
+  padding-bottom: 16px;
+  border-bottom: 2px solid var(--tlr-nero);
+}
+
+.tlr-occhiello {
+  font-size: 0.8125rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--tlr-oro-scuro);
+  display: block;
+  margin-bottom: 4px;
+}
+
+.tlr-vtit {
+  font-family: var(--tlr-font-titoli);
+  font-size: clamp(1.8rem, 3vw, 2.4rem);
+  font-weight: 900;
+  letter-spacing: -0.02em;
+  color: var(--tlr-nero);
+  line-height: 1.1;
+}
+
+.tlr-vconta {
+  font-size: 0.9375rem;
+  font-weight: 600;
+  color: var(--tlr-grigio-testo);
+}
+
+/* Fascia oraria */
+.tlr-fasce {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.tlr-fascia {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 12px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid var(--tlr-linea);
+}
+
+@media (min-width: 680px) {
+  .tlr-fascia {
+    grid-template-columns: 140px minmax(0, 1fr);
+    gap: 20px;
+  }
+}
+
+.tlr-fascia-ora {
+  font-family: var(--tlr-font-titoli);
+  font-size: 1.15rem;
+  font-weight: 800;
+  color: var(--tlr-nero);
+  letter-spacing: -0.01em;
+  padding-top: 4px;
+}
+
+.tlr-fascia-sub {
+  font-size: 0.8125rem;
+  color: var(--tlr-grigio-testo);
+  display: block;
+  font-weight: 500;
+}
+
+/* Elenco appuntamenti dentro la fascia */
+.tlr-evs {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* TARGA APPUNTAMENTO (.tlr-ev, come su Tutta la Rossani) */
+.tlr-ev {
+  background: var(--tlr-bianco);
+  border-radius: var(--tlr-r-md);
+  border: 1px solid var(--tlr-linea);
+  box-shadow: var(--tlr-ombra-scheda);
+  padding: 22px 24px;
+  position: relative;
+  transition: transform 0.15s, box-shadow 0.15s;
+}
+
+.tlr-ev:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--tlr-ombra-pannello);
+}
+
+.tlr-ev-meta {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 8px;
+}
+
+.tlr-ev-tema {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--tlr-oro-scuro);
+}
+
+.tlr-ev-prov-pill {
+  font-size: 0.6875rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  padding: 2px 7px;
+  border-radius: var(--tlr-r-pill);
+  background: var(--tlr-grigio-caldo);
+  color: var(--tlr-nero);
+  letter-spacing: 0.04em;
+}
+
+.tlr-ev-tit {
+  font-family: var(--tlr-font-titoli);
+  font-size: 1.3rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  line-height: 1.25;
+  color: var(--tlr-nero);
+  margin-bottom: 6px;
+}
+
+.tlr-ev-info {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--tlr-grigio-testo);
+  margin-bottom: 8px;
+}
+
+.tlr-ev-luogo {
+  font-size: 0.9375rem;
+  font-weight: 600;
+  color: var(--tlr-nero);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 10px;
+}
+
+.tlr-ev-luogo svg {
+  width: 14px;
+  height: 14px;
+  fill: var(--tlr-oro-scuro);
+  flex-shrink: 0;
+}
+
+.tlr-ev-desc {
+  font-size: 0.9375rem;
+  color: var(--tlr-grigio-testo);
+  line-height: 1.55;
+  margin-bottom: 14px;
+}
+
+.tlr-ev-note {
+  font-size: 0.8125rem;
+  font-style: italic;
+  color: #777;
+  margin-bottom: 12px;
+}
+
+.tlr-ev-azioni {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding-top: 12px;
+  border-top: 1px solid var(--tlr-linea-sottile);
+}
+
+.tlr-ev-badge-free {
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: var(--tlr-r-pill);
+  background: #E8F5E9;
+  color: #2E7D32;
+}
+
+.tlr-ev-btns {
+  display: flex;
+  gap: 6px;
+}
+
+.tlr-btn-link {
+  font-size: 0.8125rem;
+  font-weight: 600;
+  padding: 5px 12px;
+  border-radius: var(--tlr-r-xs);
+  background: var(--tlr-grigio-caldo);
+  color: var(--tlr-nero);
+  text-decoration: none;
+  border: 1px solid var(--tlr-linea);
+  cursor: pointer;
+  transition: all 0.12s;
+}
+
+.tlr-btn-link:hover {
+  background: var(--tlr-nero);
+  color: #fff;
+  border-color: var(--tlr-nero);
+}
+
+/* MOBILE PILL (Identica alla Rossani) */
+.tlr-lato-pillola {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 100;
+  background: var(--tlr-nero);
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: var(--tlr-r-pill);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+  border: 1px solid var(--tlr-oro);
+  font-weight: 700;
+  font-size: 0.9375rem;
+  cursor: pointer;
+}
+
+@media (max-width: 1023px) {
+  .tlr-lato-pillola { display: block; }
+  .tlr-lato-pannello {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    max-height: 100vh;
+    border-radius: 0;
+    z-index: 1000;
+    border: none;
+  }
+  .tlr-lato-pannello.is-open { display: block; }
+  .tlr-close-btn {
+    display: inline-block;
+    background: transparent;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: var(--tlr-nero);
+  }
+}
+@media (min-width: 1024px) {
+  .tlr-close-btn { display: none; }
+}
+
+/* --------------------------------------------------------------------------
+   6. PIÈ DI PAGINA (Con logo Regione Puglia in SVG originale)
+   -------------------------------------------------------------------------- */
+.tlr-piede {
+  margin-top: auto;
+  background: var(--tlr-grigio-caldo);
+  border-top: 1px solid var(--tlr-linea);
+  padding: var(--tlr-s-70) 0 var(--tlr-s-50);
+}
+
+.tlr-info {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 24px;
+  margin-bottom: var(--tlr-s-50);
+  padding-bottom: var(--tlr-s-50);
+  border-bottom: 1px solid var(--tlr-linea);
+}
+
+.tlr-info dt {
+  font-size: 0.8125rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--tlr-oro-scuro);
+  margin-bottom: 4px;
+}
+
+.tlr-info dd {
+  font-size: 0.9375rem;
+  color: var(--tlr-nero);
+  line-height: 1.5;
+}
+
+.tlr-info a {
+  color: var(--tlr-azzurro);
+  text-decoration: underline;
+}
+
+.tlr-loghi {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 36px;
+  list-style: none;
+  margin-bottom: 28px;
+}
+
+.tlr-logo-puglia img {
+  height: 44px;
+  width: auto;
+  display: block;
+}
+
+.tlr-piede-fondo {
+  font-size: 0.8125rem;
+  color: var(--tlr-grigio-testo);
+  line-height: 1.6;
+}
+
+.tlr-piede-fondo a {
+  color: var(--tlr-nero);
+  font-weight: 600;
+}
