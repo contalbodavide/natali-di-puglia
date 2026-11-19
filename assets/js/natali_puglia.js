@@ -22,7 +22,93 @@
   var mobilePill = document.getElementById('mobile-pill');
   var mobileClose = document.getElementById('mobile-close');
 
+  /* ==========================================================================
+     SISTEMA DI SICUREZZA / ACCESSO RISERVATO
+     ========================================================================== */
+  var AUTH_KEY = 'natali_puglia_auth';
+  var VALID_USERS = ['puglia', 'regione', 'admin'];
+  var VALID_PASS = ['natali2026', 'puglia2026'];
+
+  function isUserAuthenticated() {
+    try {
+      return sessionStorage.getItem(AUTH_KEY) === 'true' || localStorage.getItem(AUTH_KEY) === 'true';
+    } catch (e) {
+      return false;
+    }
+  }
+
+  function setupAuth() {
+    var overlay = document.getElementById('tlr-auth-overlay');
+    var form = document.getElementById('tlr-auth-form');
+    var userInput = document.getElementById('tlr-auth-user');
+    var passInput = document.getElementById('tlr-auth-pass');
+    var errBox = document.getElementById('tlr-auth-error');
+    var logoutBtns = document.querySelectorAll('.tlr-logout-btn');
+
+    if (isUserAuthenticated()) {
+      document.documentElement.classList.remove('tlr-locked');
+      if (overlay) overlay.classList.add('is-hidden');
+    } else {
+      document.documentElement.classList.add('tlr-locked');
+      if (overlay) {
+        overlay.classList.remove('is-hidden');
+        setTimeout(function() {
+          if (userInput) userInput.focus();
+        }, 100);
+      }
+    }
+
+    if (form) {
+      form.addEventListener('submit', function (e) {
+        e.preventDefault();
+        var u = (userInput ? userInput.value : '').trim().toLowerCase();
+        var p = (passInput ? passInput.value : '').trim();
+
+        if (VALID_USERS.indexOf(u) !== -1 && VALID_PASS.indexOf(p) !== -1) {
+          if (errBox) errBox.classList.remove('is-visible');
+          try {
+            sessionStorage.setItem(AUTH_KEY, 'true');
+            localStorage.setItem(AUTH_KEY, 'true');
+          } catch (e) {}
+
+          if (overlay) {
+            overlay.classList.add('is-hidden');
+            setTimeout(function() {
+              document.documentElement.classList.remove('tlr-locked');
+            }, 300);
+          } else {
+            document.documentElement.classList.remove('tlr-locked');
+          }
+        } else {
+          if (errBox) {
+            errBox.classList.add('is-visible');
+            errBox.textContent = 'Credenziali non valide. Riprova.';
+            errBox.style.animation = 'none';
+            void errBox.offsetWidth;
+            errBox.style.animation = '';
+          }
+          if (passInput) {
+            passInput.value = '';
+            passInput.focus();
+          }
+        }
+      });
+    }
+
+    logoutBtns.forEach(function (btn) {
+      btn.addEventListener('click', function (e) {
+        e.preventDefault();
+        try {
+          sessionStorage.removeItem(AUTH_KEY);
+          localStorage.removeItem(AUTH_KEY);
+        } catch (e) {}
+        window.location.reload();
+      });
+    });
+  }
+
   function init() {
+    setupAuth();
     setupEventListeners();
     applyFilters();
 

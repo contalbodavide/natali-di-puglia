@@ -18,11 +18,53 @@
 <link rel="stylesheet" href="assets/css/natali_puglia.css">
 <script>
   window.INITIAL_PROVINCIA = "Foggia";
+  // Controllo immediato credenziali per prevenire lampeggio contenuti
+  (function() {
+    try {
+      var isAuth = sessionStorage.getItem('natali_puglia_auth') === 'true' || localStorage.getItem('natali_puglia_auth') === 'true';
+      if (!isAuth) {
+        document.documentElement.classList.add('tlr-locked');
+      }
+    } catch(e) {}
+  })();
 </script>
 <script src="assets/js/dati_eventi.js" defer></script>
 <script src="assets/js/natali_puglia.js" defer></script>
 </head>
 <body class="tlr-b">
+
+<!-- SCHERMATA DI ACCESSO RISERVATO (LIVELLO DI SICUREZZA) -->
+<div id="tlr-auth-overlay" class="tlr-auth-overlay" role="dialog" aria-modal="true" aria-labelledby="tlr-auth-tit">
+  <div class="tlr-auth-card">
+    <div class="tlr-auth-logo-box">
+      <img class="tlr-auth-logo-puglia" src="assets/img/Puglia.svg" alt="Regione Puglia" width="891" height="193">
+    </div>
+    <span class="tlr-auth-badge">Accesso Riservato</span>
+    <h2 class="tlr-auth-tit" id="tlr-auth-tit">Natali di Puglia</h2>
+    <p class="tlr-auth-sub">Inserisci le credenziali autorizzate per accedere al portale e consultare il calendario delle iniziative.</p>
+    
+    <div id="tlr-auth-error" class="tlr-auth-error" role="alert"></div>
+
+    <form id="tlr-auth-form" class="tlr-auth-form" autocomplete="on">
+      <div class="tlr-auth-campo">
+        <label for="tlr-auth-user" class="tlr-auth-label">Nome Utente</label>
+        <input type="text" id="tlr-auth-user" class="tlr-auth-input" placeholder="es. puglia" required autofocus autocomplete="username">
+      </div>
+      <div class="tlr-auth-campo">
+        <label for="tlr-auth-pass" class="tlr-auth-label">Password</label>
+        <input type="password" id="tlr-auth-pass" class="tlr-auth-input" placeholder="Inserisci password" required autocomplete="current-password">
+      </div>
+      <button type="submit" id="tlr-auth-btn" class="tlr-auth-btn">
+        <span>Accedi al Portale</span>
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+      </button>
+    </form>
+
+    <div class="tlr-auth-piede">
+      Regione Puglia · Dipartimento Turismo, Economia della Cultura
+    </div>
+  </div>
+</div>
 
 <a class="tlr-salta" href="#programma">Vai al programma</a>
 
@@ -304,6 +346,11 @@
     <div class="tlr-piede-fondo">
       <p>Natali di Puglia è un'iniziativa promossa da <strong>Regione Puglia</strong> in collaborazione con i Comuni delle province pugliesi e con il supporto di <strong>Puglia Culture</strong>.</p>
       <p style="margin-top:6px;">Campagna istituzionale: <em>"Segui le stelle, festeggia in Puglia."</em></p>
+      <div>
+        <button type="button" class="tlr-logout-btn" title="Blocca nuovamente la pagina e richiedi credenziali">
+          <span>🔒 Accesso Protetto · Disconnetti</span>
+        </button>
+      </div>
     </div>
   </div>
 </footer>
