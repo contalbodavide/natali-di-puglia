@@ -726,42 +726,34 @@ a:focus-visible, button:focus-visible { outline: 3px solid var(--tlr-azzurro); o
     background: #09131d;
   }
   .tlr-slide-btn {
-    width: 32px;
-    height: 32px;
-    margin-top: -16px;
-    background: rgba(10, 20, 16, .45);
-    backdrop-filter: blur(4px);
-    -webkit-backdrop-filter: blur(4px);
+    display: none;
   }
-  .tlr-slide-btn.is-prev { left: 6px; }
-  .tlr-slide-btn.is-next { right: 6px; }
-  .tlr-slide-btn::before { background-size: 13px; }
   .tlr-slide-pausa {
-    top: 6px;
-    right: 6px;
-    width: 26px;
-    height: 26px;
-    background: rgba(10, 20, 16, .45);
+    top: 8px;
+    right: 8px;
+    width: 28px;
+    height: 28px;
+    background: rgba(10, 20, 16, .5);
     backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(4px);
-    font-size: .6rem;
+    font-size: .65rem;
   }
   .tlr-slide-dots {
-    bottom: 5px;
-    gap: 3px;
+    bottom: 8px;
+    gap: 4px;
   }
   .tlr-slide-dot {
-    width: 14px;
-    height: 14px;
+    width: 20px;
+    height: 20px;
   }
   .tlr-slide-dot::before {
-    top: 4px;
-    left: 4px;
-    width: 6px;
-    height: 6px;
+    top: 6px;
+    left: 6px;
+    width: 8px;
+    height: 8px;
   }
   .tlr-slide-dot.is-attiva::before {
-    width: 16px;
+    width: 20px;
     left: 0;
   }
 }
