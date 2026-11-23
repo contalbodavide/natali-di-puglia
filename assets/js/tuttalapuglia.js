@@ -365,6 +365,18 @@ COMUNI.forEach(function (c, i) {
     return h + elencoHtml(eventi, { conComune: true, categoria: id, pre: 'k' });
   }
 
+  function vistaMese(meseObj, r) {
+    var eventi = r.eventi.filter(function (ev) { return eventoInMese(ev, meseObj.y, meseObj.m); });
+    var h = '<header class="tlr-vhead"><p class="tlr-occhiello">Eventi per mese</p>' +
+      '<h2 class="tlr-vtit" id="tlr-vtit" tabindex="-1">' + esc(meseObj.nome) + '</h2>' +
+      '<p class="tlr-vconta">' + contaHtml(eventi) + ' · <a href="#tutti">tutti gli eventi</a></p>';
+    var cats = categorieDi(eventi);
+    if (cats.length) { h += '<ul class="tlr-filtri tlr-filtri--testa" aria-label="Filtra per categoria">' + chipCategorie(cats) + '</ul>'; }
+    h += '</header>';
+    if (!eventi.length) { return h + '<p class="tlr-stato">Nessun evento in questo mese.</p>'; }
+    return h + erroriHtml(r.errori) + elencoHtml(eventi, { conComune: true, pre: 'm' });
+  }
+
   function sedeHtml(s) {
     if (!s) { return ''; }
     var nomeSede = typeof s === 'string' ? s : (s.nome || '');
@@ -396,7 +408,6 @@ COMUNI.forEach(function (c, i) {
       '<ul class="tlr-orari" aria-label="Quando">' +
       '<li><span class="tlr-orari-v tlr-orari-v--data">' + (ev._inizio ? '<time datetime="' + isoAttr(ev._inizio) + '">' : '') +
       esc(dataStr) + (ev._inizio ? '</time>' : '') + '</span></li>' +
-      (ev.modalita ? '<li><span class="tlr-orari-k">Modalità</span> <span class="tlr-orari-v">' + esc(ev.modalita) + '</span></li>' : '') +
       '</ul>';
     var chips = chipCategorie(ev.categories) + chipTag(ev.tags);
     if (chips) { h += '<ul class="tlr-filtri tlr-filtri--testa" aria-label="Categorie e tag">' + chips + '</ul>'; }
@@ -438,6 +449,33 @@ COMUNI.forEach(function (c, i) {
     });
     return h + '</ul>';
   }
+  var MESI_FILTRO = [
+    { id: '2026-11', nome: 'Novembre 2026', y: 2026, m: 11 },
+    { id: '2026-12', nome: 'Dicembre 2026', y: 2026, m: 12 },
+    { id: '2027-01', nome: 'Gennaio 2027', y: 2027, m: 1 }
+  ];
+
+  function eventoInMese(ev, y, m) {
+    var d1 = ev._inizio || ev._fine;
+    var d2 = ev._fine || ev._inizio;
+    if (!d1 && !d2) { return false; }
+    var mKey = y * 100 + m;
+    var startKey = d1 ? (d1.y * 100 + d1.m) : (d2.y * 100 + d2.m);
+    var endKey = d2 ? (d2.y * 100 + d2.m) : (d1.y * 100 + d1.m);
+    return mKey >= startKey && mKey <= endKey;
+  }
+
+  function menuMesi(eventi) {
+    var h = '<ul class="tlr-menu tlr-menu--mesi">';
+    MESI_FILTRO.forEach(function (mese) {
+      var count = eventi ? eventi.filter(function (ev) { return !passato(ev) && eventoInMese(ev, mese.y, mese.m); }).length : '';
+      h += '<li><a class="tlr-mv" href="#mese-' + esc(mese.id) + '" data-vista="mese-' + esc(mese.id) + '">' +
+        '<span class="tlr-mv-t">' + esc(mese.nome) + '</span>' +
+        '<span class="tlr-mv-c" aria-hidden="true">' + (count || '') + '</span></a></li>';
+    });
+    return h + '</ul>';
+  }
+
   function menuCategorie(cats) {
     if (!cats) { return '<p class="tlr-lato-attesa">Caricamento…</p>'; }
     if (!cats.length) { return '<p class="tlr-lato-attesa">Nessuna categoria.</p>'; }
@@ -451,7 +489,7 @@ COMUNI.forEach(function (c, i) {
   }
   function testataHtml() {
     return COMUNI.map(function (c) {
-      return '<li><a href="#' + esc(c.id) + '"><span class="tlr-tutte-k">' + esc(c.prefisso || '') + '</span> ' +
+      return '<li><a href="#' + esc(c.id) + '">' +
         '<span class="tlr-tutte-v">' + esc(c.nome) + '</span></a></li>';
     }).join('');
   }
@@ -459,6 +497,7 @@ COMUNI.forEach(function (c, i) {
   document.querySelectorAll('[data-tlr-menu="testata"]').forEach(function (el) { el.innerHTML = testataHtml(); });
   document.querySelectorAll('[data-tlr-menu="tutti"]').forEach(function (el) { el.innerHTML = menuTutti(); });
   document.querySelectorAll('[data-tlr-menu="comuni"]').forEach(function (el) { el.innerHTML = menuComuni(); });
+  document.querySelectorAll('[data-tlr-menu="mesi"]').forEach(function (el) { el.innerHTML = menuMesi(null); });
   document.querySelectorAll('[data-tlr-menu="categorie"]').forEach(function (el) { el.innerHTML = menuCategorie(null); });
 
   var MENU_CORRENTE = null;
@@ -481,6 +520,7 @@ COMUNI.forEach(function (c, i) {
         if (r.errori.indexOf(c) > -1) { return; }
         eventiComune(c).then(function (l) { scrivi(c.id, futuri(l)); });
       });
+      document.querySelectorAll('[data-tlr-menu="mesi"]').forEach(function (el) { el.innerHTML = menuMesi(r.eventi); });
       document.querySelectorAll('[data-tlr-menu="categorie"]').forEach(function (el) { el.innerHTML = menuCategorie(categorieDi(r.eventi)); });
       if (MENU_CORRENTE) { aggiornaMenu(MENU_CORRENTE); }
     });
@@ -499,6 +539,23 @@ COMUNI.forEach(function (c, i) {
     if (m && COMUNE[m[1]]) { return { tipo: 'evento', c: COMUNE[m[1]], id: m[2], menu: m[1], nome: COMUNE[m[1]].nome }; }
     m = /^categoria-([\w-]+)$/.exec(id);
     if (m) { return { tipo: 'categoria', id: m[1], menu: id, nome: 'Categoria' }; }
+    m = /^mese-([\w-]+)$/.exec(id);
+    if (m) {
+      var rawM = m[1].toLowerCase();
+      var mf = MESI_FILTRO.filter(function (x) {
+        return x.id === rawM || slugify(x.nome) === rawM ||
+          (rawM === 'novembre' && x.m === 11) ||
+          (rawM === 'dicembre' && x.m === 12) ||
+          (rawM === 'gennaio' && x.m === 1);
+      })[0];
+      return {
+        tipo: 'mese',
+        id: m[1],
+        mese: mf || { id: m[1], nome: m[1], y: 2026, m: 12 },
+        menu: 'mese-' + (mf ? mf.id : m[1]),
+        nome: mf ? mf.nome : 'Mese'
+      };
+    }
     return null;
   }
 
@@ -535,6 +592,11 @@ COMUNI.forEach(function (c, i) {
       lavoro = tuttiGliEventi().then(function (r) {
         var cat = categorieDi(r.eventi).filter(function (x) { return String(x.id) === String(v.id); })[0];
         scrivi(vistaCategoria(v.id, r), cat ? cat.name : 'Categoria');
+      });
+    } else if (v.tipo === 'mese') {
+      scrivi(attesaHtml('Eventi per mese', v.mese.nome));
+      lavoro = tuttiGliEventi().then(function (r) {
+        scrivi(vistaMese(v.mese, r), v.mese.nome);
       });
     } else {
       scrivi(attesaHtml((v.c.prefisso || 'Comune di') + ' ' + v.c.nome, 'Evento'));
@@ -711,9 +773,22 @@ COMUNI.forEach(function (c, i) {
   window.addEventListener('scroll', controllaScroll, { passive: true });
   btn.addEventListener('click', function (e) {
     e.preventDefault();
-    window.scrollTo({
-      top: 0,
-      behavior: 'smooth'
-    });
+    var prog = document.getElementById('programma');
+    var progTop = prog ? (prog.getBoundingClientRect().top + (window.scrollY || window.pageYOffset || 0)) : 0;
+    var currentScroll = window.scrollY || window.pageYOffset || 0;
+
+    // Se mi trovo nella lista eventi (sotto la testata filtri/inizio programma)
+    if (prog && currentScroll > progTop + 100) {
+      window.scrollTo({
+        top: Math.max(0, progTop - 10),
+        behavior: 'smooth'
+      });
+    } else {
+      // Se sono gia in testa alla filtra eventi o prima in pagina, sali in cima all'homepage
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
+    }
   });
 })();
