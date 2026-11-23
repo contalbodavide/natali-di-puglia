@@ -32,10 +32,11 @@ window.NATALE_EVENTI = [
     "provincia": "Barletta-Andria-Trani",
     "modalita": "In presenza",
     "hero_images": [
+      "assets/img/cat_luminarie-e-installazioni.png",
       "assets/img/hero_barletta.jpg"
     ],
     "card_images": [
-      "assets/img/hero_barletta.jpg"
+      "assets/img/cat_luminarie-e-installazioni.png"
     ]
   },
   {
@@ -71,10 +72,11 @@ window.NATALE_EVENTI = [
     "provincia": "Barletta-Andria-Trani",
     "modalita": "In presenza",
     "hero_images": [
+      "assets/img/cat_presepi-e-tradizioni.png",
       "assets/img/hero_barletta.jpg"
     ],
     "card_images": [
-      "assets/img/hero_barletta.jpg"
+      "assets/img/cat_presepi-e-tradizioni.png"
     ]
   },
   {
@@ -110,10 +112,11 @@ window.NATALE_EVENTI = [
     "provincia": "Barletta-Andria-Trani",
     "modalita": "In presenza",
     "hero_images": [
+      "assets/img/cat_spettacoli-e-concerti.png",
       "assets/img/hero_barletta.jpg"
     ],
     "card_images": [
-      "assets/img/hero_barletta.jpg"
+      "assets/img/cat_spettacoli-e-concerti.png"
     ]
   },
   {
@@ -149,10 +152,11 @@ window.NATALE_EVENTI = [
     "provincia": "Barletta-Andria-Trani",
     "modalita": "In presenza",
     "hero_images": [
+      "assets/img/cat_luminarie-e-installazioni.png",
       "assets/img/hero_andria.jpg"
     ],
     "card_images": [
-      "assets/img/hero_andria.jpg"
+      "assets/img/cat_luminarie-e-installazioni.png"
     ]
   },
   {
@@ -188,10 +192,11 @@ window.NATALE_EVENTI = [
     "provincia": "Barletta-Andria-Trani",
     "modalita": "In presenza",
     "hero_images": [
+      "assets/img/cat_animazione-e-intrattenimento.png",
       "assets/img/hero_andria.jpg"
     ],
     "card_images": [
-      "assets/img/hero_andria.jpg"
+      "assets/img/cat_animazione-e-intrattenimento.png"
     ]
   },
   {
@@ -227,10 +232,11 @@ window.NATALE_EVENTI = [
     "provincia": "Barletta-Andria-Trani",
     "modalita": "In presenza",
     "hero_images": [
+      "assets/img/cat_spettacoli-e-concerti.png",
       "assets/img/hero_andria.jpg"
     ],
     "card_images": [
-      "assets/img/hero_andria.jpg"
+      "assets/img/cat_spettacoli-e-concerti.png"
     ]
   },
   {
@@ -266,10 +272,11 @@ window.NATALE_EVENTI = [
     "provincia": "Taranto",
     "modalita": "In presenza",
     "hero_images": [
+      "assets/img/cat_spettacoli-e-concerti.png",
       "assets/img/hero_taranto.jpg"
     ],
     "card_images": [
-      "assets/img/hero_taranto.jpg"
+      "assets/img/cat_spettacoli-e-concerti.png"
     ]
   },
   {
@@ -305,10 +312,11 @@ window.NATALE_EVENTI = [
     "provincia": "Taranto",
     "modalita": "In presenza",
     "hero_images": [
+      "assets/img/cat_luminarie-e-installazioni.png",
       "assets/img/hero_taranto.jpg"
     ],
     "card_images": [
-      "assets/img/hero_taranto.jpg"
+      "assets/img/cat_luminarie-e-installazioni.png"
     ]
   },
   {
@@ -344,10 +352,11 @@ window.NATALE_EVENTI = [
     "provincia": "Taranto",
     "modalita": "In presenza",
     "hero_images": [
+      "assets/img/cat_luminarie-e-installazioni.png",
       "assets/img/hero_taranto.jpg"
     ],
     "card_images": [
-      "assets/img/hero_taranto.jpg"
+      "assets/img/cat_luminarie-e-installazioni.png"
     ]
   },
   {
@@ -383,10 +392,11 @@ window.NATALE_EVENTI = [
     "provincia": "Taranto",
     "modalita": "In presenza",
     "hero_images": [
+      "assets/img/cat_animazione-e-intrattenimento.png",
       "assets/img/hero_taranto.jpg"
     ],
     "card_images": [
-      "assets/img/hero_taranto.jpg"
+      "assets/img/cat_animazione-e-intrattenimento.png"
     ]
   },
   {
@@ -422,10 +432,11 @@ window.NATALE_EVENTI = [
     "provincia": "Taranto",
     "modalita": "In presenza",
     "hero_images": [
+      "assets/img/cat_animazione-e-intrattenimento.png",
       "assets/img/hero_taranto.jpg"
     ],
     "card_images": [
-      "assets/img/hero_taranto.jpg"
+      "assets/img/cat_animazione-e-intrattenimento.png"
     ]
   },
   {
@@ -461,10 +472,11 @@ window.NATALE_EVENTI = [
     "provincia": "Lecce",
     "modalita": "In presenza",
     "hero_images": [
+      "assets/img/cat_presepi-e-tradizioni.png",
       "assets/img/hero_lecce.jpg"
     ],
     "card_images": [
-      "assets/img/hero_lecce.jpg"
+      "assets/img/cat_presepi-e-tradizioni.png"
     ]
   },
   {
@@ -500,10 +512,11 @@ window.NATALE_EVENTI = [
     "provincia": "Lecce",
     "modalita": "In presenza",
     "hero_images": [
+      "assets/img/cat_spettacoli-e-concerti.png",
       "assets/img/hero_lecce.jpg"
     ],
     "card_images": [
-      "assets/img/hero_lecce.jpg"
+      "assets/img/cat_spettacoli-e-concerti.png"
     ]
   },
   {
@@ -539,10 +552,11 @@ window.NATALE_EVENTI = [
     "provincia": "Lecce",
     "modalita": "In presenza",
     "hero_images": [
+      "assets/img/cat_presepi-e-tradizioni.png",
       "assets/img/hero_lecce.jpg"
     ],
     "card_images": [
-      "assets/img/hero_lecce.jpg"
+      "assets/img/cat_presepi-e-tradizioni.png"
     ]
   },
   {
@@ -578,10 +592,11 @@ window.NATALE_EVENTI = [
     "provincia": "Lecce",
     "modalita": "In presenza",
     "hero_images": [
+      "assets/img/cat_presepi-e-tradizioni.png",
       "assets/img/hero_lecce.jpg"
     ],
     "card_images": [
-      "assets/img/hero_lecce.jpg"
+      "assets/img/cat_presepi-e-tradizioni.png"
     ]
   },
   {
@@ -617,10 +632,11 @@ window.NATALE_EVENTI = [
     "provincia": "Lecce",
     "modalita": "In presenza",
     "hero_images": [
+      "assets/img/cat_spettacoli-e-concerti.png",
       "assets/img/hero_lecce.jpg"
     ],
     "card_images": [
-      "assets/img/hero_lecce.jpg"
+      "assets/img/cat_spettacoli-e-concerti.png"
     ]
   },
   {
@@ -656,10 +672,11 @@ window.NATALE_EVENTI = [
     "provincia": "Barletta-Andria-Trani",
     "modalita": "In presenza",
     "hero_images": [
+      "assets/img/cat_eventi-culturali.png",
       "assets/img/hero_trani.jpg"
     ],
     "card_images": [
-      "assets/img/hero_trani.jpg"
+      "assets/img/cat_eventi-culturali.png"
     ]
   },
   {
@@ -695,10 +712,11 @@ window.NATALE_EVENTI = [
     "provincia": "Barletta-Andria-Trani",
     "modalita": "In presenza",
     "hero_images": [
+      "assets/img/cat_spettacoli-e-concerti.png",
       "assets/img/hero_trani.jpg"
     ],
     "card_images": [
-      "assets/img/hero_trani.jpg"
+      "assets/img/cat_spettacoli-e-concerti.png"
     ]
   },
   {
@@ -734,10 +752,11 @@ window.NATALE_EVENTI = [
     "provincia": "Foggia",
     "modalita": "In presenza",
     "hero_images": [
+      "assets/img/cat_spettacoli-e-concerti.png",
       "assets/img/hero_foggia.jpg"
     ],
     "card_images": [
-      "assets/img/hero_foggia.jpg"
+      "assets/img/cat_spettacoli-e-concerti.png"
     ]
   },
   {
@@ -773,10 +792,11 @@ window.NATALE_EVENTI = [
     "provincia": "Foggia",
     "modalita": "In presenza",
     "hero_images": [
+      "assets/img/cat_luminarie-e-installazioni.png",
       "assets/img/hero_foggia.jpg"
     ],
     "card_images": [
-      "assets/img/hero_foggia.jpg"
+      "assets/img/cat_luminarie-e-installazioni.png"
     ]
   },
   {
@@ -812,10 +832,11 @@ window.NATALE_EVENTI = [
     "provincia": "Foggia",
     "modalita": "In presenza",
     "hero_images": [
+      "assets/img/cat_mercatini-ed-enogastronomia.png",
       "assets/img/hero_foggia.jpg"
     ],
     "card_images": [
-      "assets/img/hero_foggia.jpg"
+      "assets/img/cat_mercatini-ed-enogastronomia.png"
     ]
   },
   {
@@ -851,10 +872,11 @@ window.NATALE_EVENTI = [
     "provincia": "Foggia",
     "modalita": "In presenza",
     "hero_images": [
+      "assets/img/cat_presepi-e-tradizioni.png",
       "assets/img/hero_foggia.jpg"
     ],
     "card_images": [
-      "assets/img/hero_foggia.jpg"
+      "assets/img/cat_presepi-e-tradizioni.png"
     ]
   },
   {
@@ -890,10 +912,11 @@ window.NATALE_EVENTI = [
     "provincia": "Foggia",
     "modalita": "In presenza",
     "hero_images": [
+      "assets/img/cat_spettacoli-e-concerti.png",
       "assets/img/hero_foggia.jpg"
     ],
     "card_images": [
-      "assets/img/hero_foggia.jpg"
+      "assets/img/cat_spettacoli-e-concerti.png"
     ]
   },
   {
@@ -929,10 +952,11 @@ window.NATALE_EVENTI = [
     "provincia": "Foggia",
     "modalita": "In presenza",
     "hero_images": [
+      "assets/img/cat_luminarie-e-installazioni.png",
       "assets/img/hero_foggia.jpg"
     ],
     "card_images": [
-      "assets/img/hero_foggia.jpg"
+      "assets/img/cat_luminarie-e-installazioni.png"
     ]
   },
   {
@@ -968,10 +992,11 @@ window.NATALE_EVENTI = [
     "provincia": "Foggia",
     "modalita": "In presenza",
     "hero_images": [
+      "assets/img/cat_eventi-culturali.png",
       "assets/img/hero_foggia.jpg"
     ],
     "card_images": [
-      "assets/img/hero_foggia.jpg"
+      "assets/img/cat_eventi-culturali.png"
     ]
   },
   {
@@ -1007,10 +1032,11 @@ window.NATALE_EVENTI = [
     "provincia": "Foggia",
     "modalita": "In presenza",
     "hero_images": [
+      "assets/img/cat_mercatini-ed-enogastronomia.png",
       "assets/img/hero_foggia.jpg"
     ],
     "card_images": [
-      "assets/img/hero_foggia.jpg"
+      "assets/img/cat_mercatini-ed-enogastronomia.png"
     ]
   },
   {
@@ -1046,10 +1072,11 @@ window.NATALE_EVENTI = [
     "provincia": "Foggia",
     "modalita": "In presenza",
     "hero_images": [
+      "assets/img/cat_mercatini-ed-enogastronomia.png",
       "assets/img/hero_foggia.jpg"
     ],
     "card_images": [
-      "assets/img/hero_foggia.jpg"
+      "assets/img/cat_mercatini-ed-enogastronomia.png"
     ]
   },
   {
@@ -1085,10 +1112,11 @@ window.NATALE_EVENTI = [
     "provincia": "Foggia",
     "modalita": "In presenza",
     "hero_images": [
+      "assets/img/cat_mercatini-ed-enogastronomia.png",
       "assets/img/hero_foggia.jpg"
     ],
     "card_images": [
-      "assets/img/hero_foggia.jpg"
+      "assets/img/cat_mercatini-ed-enogastronomia.png"
     ]
   },
   {
@@ -1124,10 +1152,11 @@ window.NATALE_EVENTI = [
     "provincia": "Foggia",
     "modalita": "In presenza",
     "hero_images": [
+      "assets/img/cat_spettacoli-e-concerti.png",
       "assets/img/hero_foggia.jpg"
     ],
     "card_images": [
-      "assets/img/hero_foggia.jpg"
+      "assets/img/cat_spettacoli-e-concerti.png"
     ]
   },
   {
@@ -1163,10 +1192,11 @@ window.NATALE_EVENTI = [
     "provincia": "Foggia",
     "modalita": "In presenza",
     "hero_images": [
+      "assets/img/cat_animazione-e-intrattenimento.png",
       "assets/img/hero_foggia.jpg"
     ],
     "card_images": [
-      "assets/img/hero_foggia.jpg"
+      "assets/img/cat_animazione-e-intrattenimento.png"
     ]
   },
   {
@@ -1202,10 +1232,11 @@ window.NATALE_EVENTI = [
     "provincia": "Foggia",
     "modalita": "In presenza",
     "hero_images": [
+      "assets/img/cat_spettacoli-e-concerti.png",
       "assets/img/hero_foggia.jpg"
     ],
     "card_images": [
-      "assets/img/hero_foggia.jpg"
+      "assets/img/cat_spettacoli-e-concerti.png"
     ]
   },
   {
@@ -1241,10 +1272,11 @@ window.NATALE_EVENTI = [
     "provincia": "Foggia",
     "modalita": "In presenza",
     "hero_images": [
+      "assets/img/cat_luminarie-e-installazioni.png",
       "assets/img/hero_foggia.jpg"
     ],
     "card_images": [
-      "assets/img/hero_foggia.jpg"
+      "assets/img/cat_luminarie-e-installazioni.png"
     ]
   },
   {
@@ -1280,10 +1312,11 @@ window.NATALE_EVENTI = [
     "provincia": "Foggia",
     "modalita": "In presenza",
     "hero_images": [
+      "assets/img/cat_spettacoli-e-concerti.png",
       "assets/img/hero_foggia.jpg"
     ],
     "card_images": [
-      "assets/img/hero_foggia.jpg"
+      "assets/img/cat_spettacoli-e-concerti.png"
     ]
   },
   {
@@ -1319,10 +1352,11 @@ window.NATALE_EVENTI = [
     "provincia": "Foggia",
     "modalita": "In presenza",
     "hero_images": [
+      "assets/img/cat_animazione-e-intrattenimento.png",
       "assets/img/hero_foggia.jpg"
     ],
     "card_images": [
-      "assets/img/hero_foggia.jpg"
+      "assets/img/cat_animazione-e-intrattenimento.png"
     ]
   },
   {
@@ -1358,10 +1392,11 @@ window.NATALE_EVENTI = [
     "provincia": "Brindisi",
     "modalita": "In presenza",
     "hero_images": [
+      "assets/img/cat_animazione-e-intrattenimento.png",
       "assets/img/hero_brindisi.jpg"
     ],
     "card_images": [
-      "assets/img/hero_brindisi.jpg"
+      "assets/img/cat_animazione-e-intrattenimento.png"
     ]
   },
   {
@@ -1397,10 +1432,11 @@ window.NATALE_EVENTI = [
     "provincia": "Brindisi",
     "modalita": "In presenza",
     "hero_images": [
+      "assets/img/cat_animazione-e-intrattenimento.png",
       "assets/img/hero_brindisi.jpg"
     ],
     "card_images": [
-      "assets/img/hero_brindisi.jpg"
+      "assets/img/cat_animazione-e-intrattenimento.png"
     ]
   },
   {
@@ -1436,10 +1472,11 @@ window.NATALE_EVENTI = [
     "provincia": "Brindisi",
     "modalita": "In presenza",
     "hero_images": [
+      "assets/img/cat_animazione-e-intrattenimento.png",
       "assets/img/hero_brindisi.jpg"
     ],
     "card_images": [
-      "assets/img/hero_brindisi.jpg"
+      "assets/img/cat_animazione-e-intrattenimento.png"
     ]
   },
   {
@@ -1475,10 +1512,11 @@ window.NATALE_EVENTI = [
     "provincia": "Brindisi",
     "modalita": "In presenza",
     "hero_images": [
+      "assets/img/cat_spettacoli-e-concerti.png",
       "assets/img/hero_brindisi.jpg"
     ],
     "card_images": [
-      "assets/img/hero_brindisi.jpg"
+      "assets/img/cat_spettacoli-e-concerti.png"
     ]
   },
   {
@@ -1514,10 +1552,11 @@ window.NATALE_EVENTI = [
     "provincia": "Brindisi",
     "modalita": "In presenza",
     "hero_images": [
+      "assets/img/cat_spettacoli-e-concerti.png",
       "assets/img/hero_brindisi.jpg"
     ],
     "card_images": [
-      "assets/img/hero_brindisi.jpg"
+      "assets/img/cat_spettacoli-e-concerti.png"
     ]
   },
   {
@@ -1553,10 +1592,11 @@ window.NATALE_EVENTI = [
     "provincia": "Bari",
     "modalita": "In presenza",
     "hero_images": [
+      "assets/img/cat_luminarie-e-installazioni.png",
       "assets/img/hero_bari.jpg"
     ],
     "card_images": [
-      "assets/img/hero_bari.jpg"
+      "assets/img/cat_luminarie-e-installazioni.png"
     ]
   },
   {
@@ -1592,10 +1632,11 @@ window.NATALE_EVENTI = [
     "provincia": "Bari",
     "modalita": "In presenza",
     "hero_images": [
+      "assets/img/cat_spettacoli-e-concerti.png",
       "assets/img/hero_bari.jpg"
     ],
     "card_images": [
-      "assets/img/hero_bari.jpg"
+      "assets/img/cat_spettacoli-e-concerti.png"
     ]
   },
   {
@@ -1631,10 +1672,11 @@ window.NATALE_EVENTI = [
     "provincia": "Bari",
     "modalita": "In presenza",
     "hero_images": [
+      "assets/img/cat_spettacoli-e-concerti.png",
       "assets/img/hero_bari.jpg"
     ],
     "card_images": [
-      "assets/img/hero_bari.jpg"
+      "assets/img/cat_spettacoli-e-concerti.png"
     ]
   },
   {
@@ -1670,10 +1712,11 @@ window.NATALE_EVENTI = [
     "provincia": "Bari",
     "modalita": "In presenza",
     "hero_images": [
+      "assets/img/cat_animazione-e-intrattenimento.png",
       "assets/img/hero_bari.jpg"
     ],
     "card_images": [
-      "assets/img/hero_bari.jpg"
+      "assets/img/cat_animazione-e-intrattenimento.png"
     ]
   }
 ];

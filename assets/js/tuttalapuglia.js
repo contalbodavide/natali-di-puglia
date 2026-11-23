@@ -222,9 +222,30 @@ COMUNI.forEach(function (c, i) {
     if (typeof s === 'string') { return esc(s); }
     return [s.nome, s.citta].filter(function (x) { return x; }).map(esc).join(' · ');
   }
+  var IMMAGINI_CATEGORIA = {
+    'animazione-e-intrattenimento': 'assets/img/cat_animazione-e-intrattenimento.png',
+    'eventi-culturali': 'assets/img/cat_eventi-culturali.png',
+    'luminarie-e-installazioni': 'assets/img/cat_luminarie-e-installazioni.png',
+    'mercatini-ed-enogastronomia': 'assets/img/cat_mercatini-ed-enogastronomia.png',
+    'presepi-e-tradizioni': 'assets/img/cat_presepi-e-tradizioni.png',
+    'spettacoli-e-concerti': 'assets/img/cat_spettacoli-e-concerti.png'
+  };
+
+  function immaginePerCategoria(catId) {
+    if (!catId) { return ''; }
+    catId = String(catId).toLowerCase().trim();
+    if (IMMAGINI_CATEGORIA[catId]) { return IMMAGINI_CATEGORIA[catId]; }
+    for (var k in IMMAGINI_CATEGORIA) {
+      if (catId.indexOf(k) > -1 || k.indexOf(catId) > -1) { return IMMAGINI_CATEGORIA[k]; }
+    }
+    return '';
+  }
+
   function primaImmagine(ev) {
     var tutte = [].concat(ev.card_images || [], ev.hero_images || []).map(soloUrl).map(urlSicuro).filter(Boolean);
-    return tutte[0] || '';
+    if (tutte.length) { return tutte[0]; }
+    var catId = ev.categoria_id || (ev.categoria ? ev.categoria.toLowerCase().replace(/[^a-z0-9]+/g, '-') : '');
+    return immaginePerCategoria(catId);
   }
 
   function schedaHtml(ev, opz) {
@@ -330,10 +351,15 @@ COMUNI.forEach(function (c, i) {
     var cats = categorieDi(r.eventi);
     var cat = cats.filter(function (x) { return String(x.id) === String(id); })[0];
     var eventi = r.eventi.filter(function (ev) { return haCategoria(ev, id); });
+    var catImg = immaginePerCategoria(id);
     var h = '<header class="tlr-vhead"><p class="tlr-occhiello">Eventi per categoria' + (cat && cat.gruppo ? ' · ' + esc(cat.gruppo) : '') + '</p>' +
       '<h2 class="tlr-vtit" id="tlr-vtit" tabindex="-1">' + esc(cat ? cat.name : 'Categoria') + '</h2>' +
       '<p class="tlr-vconta">' + contaHtml(eventi) + ' · <a href="#tutti">tutti gli eventi</a></p>';
     if (cats.length > 1) { h += '<ul class="tlr-filtri tlr-filtri--testa" aria-label="Altre categorie">' + chipCategorie(cats, id) + '</ul>'; }
+    h += '</header>';
+    if (catImg) {
+      h += '<figure class="tlr-det-cover"><img src="' + esc(catImg) + '" alt="' + esc(cat ? cat.name : 'Categoria') + '" decoding="async"></figure>';
+    }
     if (!cat) { return h + '<p class="tlr-stato">Nessun evento in questa categoria.</p>'; }
     return h + elencoHtml(eventi, { conComune: true, categoria: id, pre: 'k' });
   }
