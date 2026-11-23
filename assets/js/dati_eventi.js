@@ -534,7 +534,7 @@ window.NATALE_EVENTI = [
       "provincia": "LE"
     },
     "sede_stringa": "Anfiteatro romano\nin Piazza S.Oronzo",
-    "sala": "Anfiteatro romano\nin Piazza S.Oronzo",
+    "sala": "",
     "citta": "Lecce",
     "provincia": "Lecce",
     "modalita": "In presenza",
@@ -690,7 +690,7 @@ window.NATALE_EVENTI = [
       "provincia": "BAT"
     },
     "sede_stringa": "Piazza Quercia",
-    "sala": "Piazza Quercia",
+    "sala": "",
     "citta": "Trani",
     "provincia": "Barletta-Andria-Trani",
     "modalita": "In presenza",
@@ -729,7 +729,7 @@ window.NATALE_EVENTI = [
       "provincia": "FG"
     },
     "sede_stringa": "Piazza Cesare Battisti",
-    "sala": "Piazza Cesare Battisti",
+    "sala": "",
     "citta": "Foggia",
     "provincia": "Foggia",
     "modalita": "In presenza",
@@ -1548,7 +1548,7 @@ window.NATALE_EVENTI = [
       "provincia": "BA"
     },
     "sede_stringa": "Piazza del Ferrarese",
-    "sala": "Piazza del Ferrarese",
+    "sala": "",
     "citta": "Bari",
     "provincia": "Bari",
     "modalita": "In presenza",
@@ -1665,7 +1665,7 @@ window.NATALE_EVENTI = [
       "provincia": "BA"
     },
     "sede_stringa": "5 Municipi",
-    "sala": "5 Municipi",
+    "sala": "",
     "citta": "Bari",
     "provincia": "Bari",
     "modalita": "In presenza",

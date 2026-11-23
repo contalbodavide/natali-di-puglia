@@ -50,5 +50,24 @@
     if (e.key === 'ArrowLeft') { vai(i - 1); riavvia(); } else if (e.key === 'ArrowRight') { vai(i + 1); riavvia(); }
   });
 
+  var touchStartX = 0, touchStartY = 0;
+  box.addEventListener('touchstart', function (e) {
+    if (e.touches && e.touches.length === 1) {
+      touchStartX = e.touches[0].clientX;
+      touchStartY = e.touches[0].clientY;
+      ferma();
+    }
+  }, { passive: true });
+  box.addEventListener('touchend', function (e) {
+    if (e.changedTouches && e.changedTouches.length === 1) {
+      var dx = e.changedTouches[0].clientX - touchStartX;
+      var dy = e.changedTouches[0].clientY - touchStartY;
+      if (Math.abs(dx) > 35 && Math.abs(dx) > Math.abs(dy)) {
+        if (dx < 0) { vai(i + 1); } else { vai(i - 1); }
+      }
+      riavvia();
+    }
+  }, { passive: true });
+
   box.classList.add('is-pronta'); stato(); vai(0); parti();
 })();
