@@ -614,19 +614,19 @@
         "name": "Animazione e intrattenimento"
       }
     ],
-    "data_inizio": "10 dicembre 2026, dalle 17:00 alle 23:00",
-    "data_fine": "10 dicembre 2026, dalle 17:00 alle 23:00",
-    "data_formattata": "10 dicembre 2026, dalle 17:00 alle 23:00",
-    "orario": "dalle 17:00 alle 23:00",
+    "data_inizio": "dal 10 al 13 dicembre 2026",
+    "data_fine": "dal 10 al 13 dicembre 2026",
+    "data_formattata": "dal 10 al 13 dicembre 2026",
+    "orario": "17:00–23:00 (venerdì 11 con orchestra dal vivo; di giorno lezioni gratuite)",
     "inizio": "2026-12-10",
-    "fine": "2026-12-10",
+    "fine": "2026-12-13",
     "sede": {
-      "nome": "Piazza Teatro",
+      "nome": "Piazza Teatro e via Zanardelli",
       "indirizzo": "",
       "citta": "Trani",
       "provincia": "BAT"
     },
-    "sede_stringa": "Piazza Teatro",
+    "sede_stringa": "Piazza Teatro e via Zanardelli",
     "sala": "",
     "citta": "Trani",
     "provincia": "Barletta-Andria-Trani",
@@ -641,126 +641,6 @@
   },
   {
     "id": 17,
-    "comune": "Trani",
-    "comune_id": "trani",
-    "titolo": "International Trani Tango Christmas Edition",
-    "nome": "International Trani Tango Christmas Edition",
-    "descrizione": "Dal 10 al 13 dicembre 2026, in Piazza Teatro e in via Zanardelli, il festival internazionale di tango che Trani ospita d'estate ha un'edizione invernale: quattro giornate gratuite di tango, musica e incontri. Venerdì 11 si festeggia il Día del Tango, nato per ricordare la data di nascita di Carlos Gardel e Julio De Caro. L'evento ricorda anche le origini tranesi della famiglia di Astor Piazzolla. Ogni sera c'è una milonga, la serata di ballo del tango: l'11 con un'orchestra dal vivo, le altre sere con un DJ e le esibizioni dei maestri. Di giorno ci sono lezioni gratuite per chi vuole provare i primi passi.",
-    "categoria": "Animazione e intrattenimento",
-    "categoria_id": "animazione-e-intrattenimento",
-    "categories": [
-      {
-        "id": "animazione-e-intrattenimento",
-        "name": "Animazione e intrattenimento"
-      }
-    ],
-    "data_inizio": "11 dicembre 2026, dalle 17:00 alle 23:00",
-    "data_fine": "11 dicembre 2026, dalle 17:00 alle 23:00",
-    "data_formattata": "11 dicembre 2026, dalle 17:00 alle 23:00",
-    "orario": "dalle 17:00 alle 23:00",
-    "inizio": "2026-12-11",
-    "fine": "2026-12-11",
-    "sede": {
-      "nome": "Piazza Teatro e Via Zanardelli",
-      "indirizzo": "",
-      "citta": "Trani",
-      "provincia": "BAT"
-    },
-    "sede_stringa": "Piazza Teatro e Via Zanardelli",
-    "sala": "",
-    "citta": "Trani",
-    "provincia": "Barletta-Andria-Trani",
-    "modalita": "In presenza",
-    "hero_images": [
-      "assets/img/cat_animazione-e-intrattenimento.png",
-      "assets/img/hero_trani.jpg"
-    ],
-    "card_images": [
-      "assets/img/cat_animazione-e-intrattenimento.png"
-    ]
-  },
-  {
-    "id": 18,
-    "comune": "Trani",
-    "comune_id": "trani",
-    "titolo": "International Trani Tango Christmas Edition",
-    "nome": "International Trani Tango Christmas Edition",
-    "descrizione": "Dal 10 al 13 dicembre 2026, in Piazza Teatro e in via Zanardelli, il festival internazionale di tango che Trani ospita d'estate ha un'edizione invernale: quattro giornate gratuite di tango, musica e incontri. Venerdì 11 si festeggia il Día del Tango, nato per ricordare la data di nascita di Carlos Gardel e Julio De Caro. L'evento ricorda anche le origini tranesi della famiglia di Astor Piazzolla. Ogni sera c'è una milonga, la serata di ballo del tango: l'11 con un'orchestra dal vivo, le altre sere con un DJ e le esibizioni dei maestri. Di giorno ci sono lezioni gratuite per chi vuole provare i primi passi.",
-    "categoria": "Animazione e intrattenimento",
-    "categoria_id": "animazione-e-intrattenimento",
-    "categories": [
-      {
-        "id": "animazione-e-intrattenimento",
-        "name": "Animazione e intrattenimento"
-      }
-    ],
-    "data_inizio": "12 dicembre 2026, dalle 11:00 alle 12:30",
-    "data_fine": "12 dicembre 2026, dalle 11:00 alle 12:30",
-    "data_formattata": "12 dicembre 2026, dalle 11:00 alle 12:30",
-    "orario": "dalle 11:00 alle 12:30",
-    "inizio": "2026-12-12",
-    "fine": "2026-12-12",
-    "sede": {
-      "nome": "Piazza Teatro e Via Zanardelli",
-      "indirizzo": "",
-      "citta": "Trani",
-      "provincia": "BAT"
-    },
-    "sede_stringa": "Piazza Teatro e Via Zanardelli",
-    "sala": "",
-    "citta": "Trani",
-    "provincia": "Barletta-Andria-Trani",
-    "modalita": "In presenza",
-    "hero_images": [
-      "assets/img/cat_animazione-e-intrattenimento.png",
-      "assets/img/hero_trani.jpg"
-    ],
-    "card_images": [
-      "assets/img/cat_animazione-e-intrattenimento.png"
-    ]
-  },
-  {
-    "id": 19,
-    "comune": "Trani",
-    "comune_id": "trani",
-    "titolo": "International Trani Tango Christmas Edition",
-    "nome": "International Trani Tango Christmas Edition",
-    "descrizione": "Dal 10 al 13 dicembre 2026, in Piazza Teatro e in via Zanardelli, il festival internazionale di tango che Trani ospita d'estate ha un'edizione invernale: quattro giornate gratuite di tango, musica e incontri. Venerdì 11 si festeggia il Día del Tango, nato per ricordare la data di nascita di Carlos Gardel e Julio De Caro. L'evento ricorda anche le origini tranesi della famiglia di Astor Piazzolla. Ogni sera c'è una milonga, la serata di ballo del tango: l'11 con un'orchestra dal vivo, le altre sere con un DJ e le esibizioni dei maestri. Di giorno ci sono lezioni gratuite per chi vuole provare i primi passi.",
-    "categoria": "Animazione e intrattenimento",
-    "categoria_id": "animazione-e-intrattenimento",
-    "categories": [
-      {
-        "id": "animazione-e-intrattenimento",
-        "name": "Animazione e intrattenimento"
-      }
-    ],
-    "data_inizio": "13 dicembre 2026, dalle 11:30 alle 13:00",
-    "data_fine": "13 dicembre 2026, dalle 11:30 alle 13:00",
-    "data_formattata": "13 dicembre 2026, dalle 11:30 alle 13:00",
-    "orario": "dalle 11:30 alle 13:00",
-    "inizio": "2026-12-13",
-    "fine": "2026-12-13",
-    "sede": {
-      "nome": "Piazza Teatro",
-      "indirizzo": "",
-      "citta": "Trani",
-      "provincia": "BAT"
-    },
-    "sede_stringa": "Piazza Teatro",
-    "sala": "",
-    "citta": "Trani",
-    "provincia": "Barletta-Andria-Trani",
-    "modalita": "In presenza",
-    "hero_images": [
-      "assets/img/cat_animazione-e-intrattenimento.png",
-      "assets/img/hero_trani.jpg"
-    ],
-    "card_images": [
-      "assets/img/cat_animazione-e-intrattenimento.png"
-    ]
-  },
-  {
-    "id": 20,
     "comune": "Trani",
     "comune_id": "trani",
     "titolo": "Spettacolo di luminarie",
@@ -800,7 +680,7 @@
     ]
   },
   {
-    "id": 21,
+    "id": 18,
     "comune": "Trani",
     "comune_id": "trani",
     "titolo": "Concerto Banda Musicale dell'Arma dei Carabinieri",
@@ -840,7 +720,7 @@
     ]
   },
   {
-    "id": 22,
+    "id": 19,
     "comune": "Foggia",
     "comune_id": "foggia",
     "titolo": "Giordano in Jazz – Autumn Edition",
@@ -880,7 +760,7 @@
     ]
   },
   {
-    "id": 23,
+    "id": 20,
     "comune": "Foggia",
     "comune_id": "foggia",
     "titolo": "Natale al Borgo – Inaugurazione e accensione dell’albero",
@@ -920,7 +800,7 @@
     ]
   },
   {
-    "id": 24,
+    "id": 21,
     "comune": "Foggia",
     "comune_id": "foggia",
     "titolo": "Natale al Borgo – Mercatino natalizio e animazione",
@@ -960,7 +840,7 @@
     ]
   },
   {
-    "id": 25,
+    "id": 22,
     "comune": "Foggia",
     "comune_id": "foggia",
     "titolo": "Natale al Borgo – Mostra dei presepi con degustazione",
@@ -1000,7 +880,7 @@
     ]
   },
   {
-    "id": 26,
+    "id": 23,
     "comune": "Foggia",
     "comune_id": "foggia",
     "titolo": "Natale al Borgo – Musica di strada",
@@ -1040,7 +920,7 @@
     ]
   },
   {
-    "id": 27,
+    "id": 24,
     "comune": "Foggia",
     "comune_id": "foggia",
     "titolo": "Natale al Borgo – Luci e Immagini: Videomapping",
@@ -1080,7 +960,7 @@
     ]
   },
   {
-    "id": 28,
+    "id": 25,
     "comune": "Foggia",
     "comune_id": "foggia",
     "titolo": "Natale al Borgo – Escursione nel bosco",
@@ -1120,7 +1000,7 @@
     ]
   },
   {
-    "id": 29,
+    "id": 26,
     "comune": "Foggia",
     "comune_id": "foggia",
     "titolo": "Natale al Borgo – La Tavola Natalizia",
@@ -1160,7 +1040,7 @@
     ]
   },
   {
-    "id": 30,
+    "id": 27,
     "comune": "Foggia",
     "comune_id": "foggia",
     "titolo": "Natale al Borgo – Le conserve di Natale",
@@ -1200,7 +1080,7 @@
     ]
   },
   {
-    "id": 31,
+    "id": 28,
     "comune": "Foggia",
     "comune_id": "foggia",
     "titolo": "Natale al Borgo – Aperitivo del Borgo",
@@ -1240,7 +1120,7 @@
     ]
   },
   {
-    "id": 32,
+    "id": 29,
     "comune": "Foggia",
     "comune_id": "foggia",
     "titolo": "Natale al Borgo – Arte di strada",
@@ -1280,7 +1160,7 @@
     ]
   },
   {
-    "id": 33,
+    "id": 30,
     "comune": "Foggia",
     "comune_id": "foggia",
     "titolo": "Natale al Borgo – Area giochi antichi",
@@ -1320,7 +1200,7 @@
     ]
   },
   {
-    "id": 34,
+    "id": 31,
     "comune": "Foggia",
     "comune_id": "foggia",
     "titolo": "Natale al Borgo – Concerto Gospel della Vigilia",
@@ -1360,7 +1240,7 @@
     ]
   },
   {
-    "id": 35,
+    "id": 32,
     "comune": "Foggia",
     "comune_id": "foggia",
     "titolo": "Lumina Mystica – Videomapping nel centro storico",
@@ -1400,7 +1280,7 @@
     ]
   },
   {
-    "id": 36,
+    "id": 33,
     "comune": "Foggia",
     "comune_id": "foggia",
     "titolo": "Accensione dell’albero di Natale",
@@ -1440,7 +1320,7 @@
     ]
   },
   {
-    "id": 37,
+    "id": 34,
     "comune": "Foggia",
     "comune_id": "foggia",
     "titolo": "Concerto di Capodanno",
@@ -1480,7 +1360,7 @@
     ]
   },
   {
-    "id": 38,
+    "id": 35,
     "comune": "Brindisi",
     "comune_id": "brindisi",
     "titolo": "Villaggio di Babbo Natale",
@@ -1520,7 +1400,7 @@
     ]
   },
   {
-    "id": 39,
+    "id": 36,
     "comune": "Brindisi",
     "comune_id": "brindisi",
     "titolo": "Christmas Shopping Day",
@@ -1560,7 +1440,7 @@
     ]
   },
   {
-    "id": 40,
+    "id": 37,
     "comune": "Brindisi",
     "comune_id": "brindisi",
     "titolo": "Teatro dei Burattini - Ferraiolo",
@@ -1600,7 +1480,7 @@
     ]
   },
   {
-    "id": 41,
+    "id": 38,
     "comune": "Brindisi",
     "comune_id": "brindisi",
     "titolo": "Concerto di Capodanno",
@@ -1640,7 +1520,7 @@
     ]
   },
   {
-    "id": 42,
+    "id": 39,
     "comune": "Brindisi",
     "comune_id": "brindisi",
     "titolo": "Concerto Notte di Capodanno",
@@ -1680,7 +1560,7 @@
     ]
   },
   {
-    "id": 43,
+    "id": 40,
     "comune": "Bari",
     "comune_id": "bari",
     "titolo": "Accensione Albero di Natale",
@@ -1720,7 +1600,7 @@
     ]
   },
   {
-    "id": 44,
+    "id": 41,
     "comune": "Bari",
     "comune_id": "bari",
     "titolo": "Bari accende il Natale",
@@ -1760,7 +1640,7 @@
     ]
   },
   {
-    "id": 45,
+    "id": 42,
     "comune": "Bari",
     "comune_id": "bari",
     "titolo": "Capodanno a Bari",
@@ -1800,7 +1680,7 @@
     ]
   },
   {
-    "id": 46,
+    "id": 43,
     "comune": "Bari",
     "comune_id": "bari",
     "titolo": "Natale nei Municipi",

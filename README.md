@@ -16,4 +16,4 @@ Sito statico generato automaticamente a partire dal calendario delle iniziative 
   * Link di geolocalizzazione per calcolo percorso su Google Maps.
 - **100% Statico (Zero API)**: Funziona offline in locale (doppio clic su `index.html`), su chiavetta USB o caricato su qualsiasi web hosting statico (GitHub Pages, Apache, Nginx, Netlify, S3) senza bisogno di database o server backend.
 
-Totale iniziative caricate: **46**.
+Totale iniziative caricate: **43**.
