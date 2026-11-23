@@ -1,0 +1,1680 @@
+window.NATALE_EVENTI = [
+  {
+    "id": 64,
+    "comune": "Barletta",
+    "comune_id": "barletta",
+    "titolo": "Gran Galà delle luminarie e evento inaugurale",
+    "nome": "Gran Galà delle luminarie e evento inaugurale",
+    "descrizione": "Le luminarie artistiche del Natale barlettano si accenderanno il 29 novembre. Un evento inaugurale in Piazza Aldo Moro accompagnerà, con musica e festa, l’accensione a partire dalle ore 17:00. Un magico gioco di luci che farà da sfondo alle vie della città fino all’epifania.",
+    "categoria": "Luminarie e installazioni",
+    "categoria_id": "luminarie-e-installazioni",
+    "categories": [
+      {
+        "id": "luminarie-e-installazioni",
+        "name": "Luminarie e installazioni"
+      }
+    ],
+    "data_inizio": "dal 29 novembre 2026 al 6 gennaio 2027",
+    "data_fine": "dal 29 novembre 2026 al 6 gennaio 2027",
+    "data_formattata": "dal 29 novembre 2026 al 6 gennaio 2027",
+    "orario": "",
+    "inizio": "2026-11-29T17:00",
+    "fine": "2027-01-06T17:00",
+    "sede": {
+      "nome": "Piazza Aldo Moro",
+      "indirizzo": "P.zza Aldo Moro",
+      "citta": "Barletta",
+      "provincia": "BAT"
+    },
+    "sede_stringa": "Piazza Aldo Moro",
+    "sala": "P.zza Aldo Moro",
+    "citta": "Barletta",
+    "provincia": "Barletta-Andria-Trani",
+    "modalita": "In presenza",
+    "hero_images": [
+      "assets/img/hero_barletta.jpg"
+    ],
+    "card_images": [
+      "assets/img/hero_barletta.jpg"
+    ]
+  },
+  {
+    "id": 65,
+    "comune": "Barletta",
+    "comune_id": "barletta",
+    "titolo": "A Fanov – Fanova 2026",
+    "nome": "A Fanov – Fanova 2026",
+    "descrizione": "Come ogni vigilia dell'Immacolata, il 7 dicembre il lungomare Pietro Mennea di Barletta si illumina con «A Fanov», il grande falò con cui la città inizia ufficialmente le festività natalizie. È una delle tradizioni più antiche e amate della città, un rito di fuoco e di comunità che riunisce grandi e piccoli attorno all'enorme catasta di legna a ridosso delle Mura del Carmine. Tra mercatino di prodotti tipici, frittelle fumanti, sbandieratori e mangiafuoco, la festa culmina con l'accensione della pira intorno alle ore 20.30.",
+    "categoria": "Presepi e tradizioni",
+    "categoria_id": "presepi-e-tradizioni",
+    "categories": [
+      {
+        "id": "presepi-e-tradizioni",
+        "name": "Presepi e tradizioni"
+      }
+    ],
+    "data_inizio": "7 dicembre 2026, ore 20:30",
+    "data_fine": "7 dicembre 2026, ore 20:30",
+    "data_formattata": "7 dicembre 2026, ore 20:30",
+    "orario": "ore 20:30",
+    "inizio": "2026-12-07T20:30",
+    "fine": "2026-12-07T20:30",
+    "sede": {
+      "nome": "Lungomare P.P. Mennea",
+      "indirizzo": "Lungomare Pietro Mennea",
+      "citta": "Barletta",
+      "provincia": "BAT"
+    },
+    "sede_stringa": "Lungomare P.P. Mennea",
+    "sala": "Lungomare Pietro Mennea",
+    "citta": "Barletta",
+    "provincia": "Barletta-Andria-Trani",
+    "modalita": "In presenza",
+    "hero_images": [
+      "assets/img/hero_barletta.jpg"
+    ],
+    "card_images": [
+      "assets/img/hero_barletta.jpg"
+    ]
+  },
+  {
+    "id": 66,
+    "comune": "Barletta",
+    "comune_id": "barletta",
+    "titolo": "Gran Concerto dell'Epifania",
+    "nome": "Gran Concerto dell'Epifania",
+    "descrizione": "La fine delle festività e le celebrazioni dell'Epifania del 6 gennaio, dalle 10:30 alle 13:30, saranno accompagnate dal “Gran Concerto dell'Epifania”, un percorso musicale itinerante che attraverserà le vie del centro di Barletta.",
+    "categoria": "Spettacoli e concerti",
+    "categoria_id": "spettacoli-e-concerti",
+    "categories": [
+      {
+        "id": "spettacoli-e-concerti",
+        "name": "Spettacoli e concerti"
+      }
+    ],
+    "data_inizio": "6 gennaio 2027, dalle 10:30 alle 13:30",
+    "data_fine": "6 gennaio 2027, dalle 10:30 alle 13:30",
+    "data_formattata": "6 gennaio 2027, dalle 10:30 alle 13:30",
+    "orario": "dalle 10:30 alle 13:30",
+    "inizio": "2027-01-06T10:30",
+    "fine": "2027-01-06T13:30",
+    "sede": {
+      "nome": "Corso Vittorio Emanuele II",
+      "indirizzo": "C.so Vittorio Emanuele II",
+      "citta": "Barletta",
+      "provincia": "BAT"
+    },
+    "sede_stringa": "Corso Vittorio Emanuele II",
+    "sala": "C.so Vittorio Emanuele II",
+    "citta": "Barletta",
+    "provincia": "Barletta-Andria-Trani",
+    "modalita": "In presenza",
+    "hero_images": [
+      "assets/img/hero_barletta.jpg"
+    ],
+    "card_images": [
+      "assets/img/hero_barletta.jpg"
+    ]
+  },
+  {
+    "id": 67,
+    "comune": "Andria",
+    "comune_id": "andria",
+    "titolo": "Accensione del Grande Albero di Natale",
+    "nome": "Accensione del Grande Albero di Natale",
+    "descrizione": "Il Natale andriese prenderà il via il 5 dicembre 2026 in Piazza Vittorio Emanuele II con l'accensione del Grande Albero di Natale. La cerimonia di accensione sarà impreziosita dalla partecipazione del cantante Albano Carrisi e dall'esibizione del coro gospel \"Black & Blues\", diretto da Amelia Milella, che accompagnerà il pubblico in un'atmosfera di festa, musica e condivisione.",
+    "categoria": "Luminarie e installazioni",
+    "categoria_id": "luminarie-e-installazioni",
+    "categories": [
+      {
+        "id": "luminarie-e-installazioni",
+        "name": "Luminarie e installazioni"
+      }
+    ],
+    "data_inizio": "dal 5 dicembre 2026 al 6 gennaio 2027",
+    "data_fine": "dal 5 dicembre 2026 al 6 gennaio 2027",
+    "data_formattata": "dal 5 dicembre 2026 al 6 gennaio 2027",
+    "orario": "",
+    "inizio": "2026-12-05",
+    "fine": "2027-01-06",
+    "sede": {
+      "nome": "P.zza Vitt. Emanuele II",
+      "indirizzo": "Piazza Vittorio Emanuele II",
+      "citta": "Andria",
+      "provincia": "BAT"
+    },
+    "sede_stringa": "P.zza Vitt. Emanuele II",
+    "sala": "Piazza Vittorio Emanuele II",
+    "citta": "Andria",
+    "provincia": "Barletta-Andria-Trani",
+    "modalita": "In presenza",
+    "hero_images": [
+      "assets/img/hero_andria.jpg"
+    ],
+    "card_images": [
+      "assets/img/hero_andria.jpg"
+    ]
+  },
+  {
+    "id": 68,
+    "comune": "Andria",
+    "comune_id": "andria",
+    "titolo": "Chapiteau",
+    "nome": "Chapiteau",
+    "descrizione": "Da sabato 19 dicembre 2026 a sabato 9 gennaio 2027, Piazza Vittorio Emanuele II ospiterà lo Chapiteau della compagnia italo-francese Circo Zoè, protagonista di un ricco calendario di spettacoli pensati per tutte le età. Ogni giorno il tendone accoglierà performance di circo contemporaneo, teatro, musica e danza, offrendo al pubblico esperienze artistiche coinvolgenti e innovative. Un luogo di incontro e meraviglia, dove grandi e piccoli potranno condividere momenti di emozione e scoperta durante tutto il periodo delle festività natalizie.",
+    "categoria": "Animazione e intrattenimento",
+    "categoria_id": "animazione-e-intrattenimento",
+    "categories": [
+      {
+        "id": "animazione-e-intrattenimento",
+        "name": "Animazione e intrattenimento"
+      }
+    ],
+    "data_inizio": "dal 19 dicembre 2026 al 9 gennaio 2027",
+    "data_fine": "dal 19 dicembre 2026 al 9 gennaio 2027",
+    "data_formattata": "dal 19 dicembre 2026 al 9 gennaio 2027",
+    "orario": "",
+    "inizio": "2026-12-19",
+    "fine": "2027-01-09",
+    "sede": {
+      "nome": "P.zza Vitt. Emanuele II",
+      "indirizzo": "P.za Vittorio Emanuele II",
+      "citta": "Andria",
+      "provincia": "BAT"
+    },
+    "sede_stringa": "P.zza Vitt. Emanuele II",
+    "sala": "P.za Vittorio Emanuele II",
+    "citta": "Andria",
+    "provincia": "Barletta-Andria-Trani",
+    "modalita": "In presenza",
+    "hero_images": [
+      "assets/img/hero_andria.jpg"
+    ],
+    "card_images": [
+      "assets/img/hero_andria.jpg"
+    ]
+  },
+  {
+    "id": 69,
+    "comune": "Andria",
+    "comune_id": "andria",
+    "titolo": "Vigilia di Natale",
+    "nome": "Vigilia di Natale",
+    "descrizione": "Ad Andria la Vigilia di Natale sarà animata da un ricco programma di eventi diffusi in diversi luoghi del centro urbano.Tra eventi musicali, come quello in Largo Torneo con il DJ set di DEEZA e quello in Piazza Toniolo con la DIXINITALY JAZZ BAND, ed altri eventi di intrattenimento e di animazione per grandi e piccoli, il centro cittadino vivrà in un'atmosfera di festa.",
+    "categoria": "Spettacoli e concerti",
+    "categoria_id": "spettacoli-e-concerti",
+    "categories": [
+      {
+        "id": "spettacoli-e-concerti",
+        "name": "Spettacoli e concerti"
+      }
+    ],
+    "data_inizio": "24 dicembre 2026",
+    "data_fine": "24 dicembre 2026",
+    "data_formattata": "24 dicembre 2026",
+    "orario": "",
+    "inizio": "2026-12-24",
+    "fine": "2026-12-24",
+    "sede": {
+      "nome": "Largo Torneo, Piazza Toniolo",
+      "indirizzo": "L.go Torneo, Piazza Toniolo",
+      "citta": "Andria",
+      "provincia": "BAT"
+    },
+    "sede_stringa": "Largo Torneo, Piazza Toniolo",
+    "sala": "L.go Torneo, Piazza Toniolo",
+    "citta": "Andria",
+    "provincia": "Barletta-Andria-Trani",
+    "modalita": "In presenza",
+    "hero_images": [
+      "assets/img/hero_andria.jpg"
+    ],
+    "card_images": [
+      "assets/img/hero_andria.jpg"
+    ]
+  },
+  {
+    "id": 70,
+    "comune": "Taranto",
+    "comune_id": "taranto",
+    "titolo": "Concerto di Capodanno",
+    "nome": "Concerto di Capodanno",
+    "descrizione": "Il giorno di Capodanno Taranto accoglierà il nuovo anno con il tradizionale Concerto di Capodanno dell’Orchestra ICO della Magna Grecia al Teatro Comunale Fusco.",
+    "categoria": "Spettacoli e concerti",
+    "categoria_id": "spettacoli-e-concerti",
+    "categories": [
+      {
+        "id": "spettacoli-e-concerti",
+        "name": "Spettacoli e concerti"
+      }
+    ],
+    "data_inizio": "1 gennaio 2027",
+    "data_fine": "1 gennaio 2027",
+    "data_formattata": "1 gennaio 2027",
+    "orario": "",
+    "inizio": "2027-01-01",
+    "fine": "2027-01-01",
+    "sede": {
+      "nome": "Sede diffusa nel comune di Taranto",
+      "indirizzo": "",
+      "citta": "Taranto",
+      "provincia": "TA"
+    },
+    "sede_stringa": "Sede diffusa nel comune di Taranto",
+    "sala": "",
+    "citta": "Taranto",
+    "provincia": "Taranto",
+    "modalita": "In presenza",
+    "hero_images": [
+      "assets/img/hero_taranto.jpg"
+    ],
+    "card_images": [
+      "assets/img/hero_taranto.jpg"
+    ]
+  },
+  {
+    "id": 71,
+    "comune": "Taranto",
+    "comune_id": "taranto",
+    "titolo": "Proiezioni artistiche sulle facciate",
+    "nome": "Proiezioni artistiche sulle facciate",
+    "descrizione": "Durante tutte le festività, le facciate di chiese e di altri edifici storici o simbolici di Taranto si illumineranno con proiezioni artistiche.",
+    "categoria": "Luminarie e installazioni",
+    "categoria_id": "luminarie-e-installazioni",
+    "categories": [
+      {
+        "id": "luminarie-e-installazioni",
+        "name": "Luminarie e installazioni"
+      }
+    ],
+    "data_inizio": "6 gennaio 2027",
+    "data_fine": "6 gennaio 2027",
+    "data_formattata": "6 gennaio 2027",
+    "orario": "",
+    "inizio": "2027-01-06",
+    "fine": "2027-01-06",
+    "sede": {
+      "nome": "Sede diffusa nel comune di Taranto",
+      "indirizzo": "",
+      "citta": "Taranto",
+      "provincia": "TA"
+    },
+    "sede_stringa": "Sede diffusa nel comune di Taranto",
+    "sala": "",
+    "citta": "Taranto",
+    "provincia": "Taranto",
+    "modalita": "In presenza",
+    "hero_images": [
+      "assets/img/hero_taranto.jpg"
+    ],
+    "card_images": [
+      "assets/img/hero_taranto.jpg"
+    ]
+  },
+  {
+    "id": 72,
+    "comune": "Taranto",
+    "comune_id": "taranto",
+    "titolo": "Percorsi sonori in città",
+    "nome": "Percorsi sonori in città",
+    "descrizione": "Durante tutte le festività le vie di Taranto saranno accompagnate dalla musica grazie a un percorso sonoro di filodiffusione.",
+    "categoria": "Luminarie e installazioni",
+    "categoria_id": "luminarie-e-installazioni",
+    "categories": [
+      {
+        "id": "luminarie-e-installazioni",
+        "name": "Luminarie e installazioni"
+      }
+    ],
+    "data_inizio": "6 gennaio 2027",
+    "data_fine": "6 gennaio 2027",
+    "data_formattata": "6 gennaio 2027",
+    "orario": "",
+    "inizio": "2027-01-06",
+    "fine": "2027-01-06",
+    "sede": {
+      "nome": "Sede diffusa nel comune di Taranto",
+      "indirizzo": "",
+      "citta": "Taranto",
+      "provincia": "TA"
+    },
+    "sede_stringa": "Sede diffusa nel comune di Taranto",
+    "sala": "",
+    "citta": "Taranto",
+    "provincia": "Taranto",
+    "modalita": "In presenza",
+    "hero_images": [
+      "assets/img/hero_taranto.jpg"
+    ],
+    "card_images": [
+      "assets/img/hero_taranto.jpg"
+    ]
+  },
+  {
+    "id": 10,
+    "comune": "Taranto",
+    "comune_id": "taranto",
+    "titolo": "Eventi diffusi nelle periferie",
+    "nome": "Eventi diffusi nelle periferie",
+    "descrizione": "Non solo il centro cittadino ma anche i quartieri periferici di Taranto vivranno i loro momenti di festa. Nei quartieri San Vito, Lama, Talsano, Tramontone, Paolo VI, Tamburi, Salinella, Lido Azzurro e Città Vecchi sono previste iniziative culturali, concerti e momenti di animazione e di festa.",
+    "categoria": "Animazione e intrattenimento",
+    "categoria_id": "animazione-e-intrattenimento",
+    "categories": [
+      {
+        "id": "animazione-e-intrattenimento",
+        "name": "Animazione e intrattenimento"
+      }
+    ],
+    "data_inizio": "dal 6 dicembre 2026 al 5 gennaio 2027",
+    "data_fine": "dal 6 dicembre 2026 al 5 gennaio 2027",
+    "data_formattata": "dal 6 dicembre 2026 al 5 gennaio 2027",
+    "orario": "",
+    "inizio": "2026-12-06",
+    "fine": "2027-01-05",
+    "sede": {
+      "nome": "Sede diffusa nel comune di Taranto",
+      "indirizzo": "",
+      "citta": "Taranto",
+      "provincia": "TA"
+    },
+    "sede_stringa": "Sede diffusa nel comune di Taranto",
+    "sala": "",
+    "citta": "Taranto",
+    "provincia": "Taranto",
+    "modalita": "In presenza",
+    "hero_images": [
+      "assets/img/hero_taranto.jpg"
+    ],
+    "card_images": [
+      "assets/img/hero_taranto.jpg"
+    ]
+  },
+  {
+    "id": 73,
+    "comune": "Taranto",
+    "comune_id": "taranto",
+    "titolo": "Eventi diffusi nelle vie commerciali",
+    "nome": "Eventi diffusi nelle vie commerciali",
+    "descrizione": "Per sostenere il commercio di prossimità, le vie Viale Liguria, nel quartiere Italia-Montegranaro, e Via Cesare Battisti, nel quartiere Tre Carrare–Battisti, saranno animate con spettacoli e intrattenimento.",
+    "categoria": "Animazione e intrattenimento",
+    "categoria_id": "animazione-e-intrattenimento",
+    "categories": [
+      {
+        "id": "animazione-e-intrattenimento",
+        "name": "Animazione e intrattenimento"
+      }
+    ],
+    "data_inizio": "dal 6 dicembre 2026 al 5 gennaio 2027",
+    "data_fine": "dal 6 dicembre 2026 al 5 gennaio 2027",
+    "data_formattata": "dal 6 dicembre 2026 al 5 gennaio 2027",
+    "orario": "",
+    "inizio": "2026-12-06",
+    "fine": "2027-01-05",
+    "sede": {
+      "nome": "Viale Liguria e Via C.Battisti",
+      "indirizzo": "Viale Liguria--Via C.Battisti",
+      "citta": "Taranto",
+      "provincia": "TA"
+    },
+    "sede_stringa": "Viale Liguria e Via C.Battisti",
+    "sala": "Viale Liguria--Via C.Battisti",
+    "citta": "Taranto",
+    "provincia": "Taranto",
+    "modalita": "In presenza",
+    "hero_images": [
+      "assets/img/hero_taranto.jpg"
+    ],
+    "card_images": [
+      "assets/img/hero_taranto.jpg"
+    ]
+  },
+  {
+    "id": 74,
+    "comune": "Lecce",
+    "comune_id": "lecce",
+    "titolo": "Fiera dei Pupi",
+    "nome": "Fiera dei Pupi",
+    "descrizione": "Dal 6 al 26 dicembre il Chiostro dei Teatini ospita la Fiera dei \"Pupi\", l'esposizione di pastori, natività e gruppi sacri dell'artigianato salentino. La Fiera si tiene a Lecce da tempo ed è un patrimonio prezioso per la memoria storica della città. Valorizza le tecniche e le espressioni artistiche salentine, anche quelle amatoriali, per salvaguardare una forma d'arte che da tutelare.",
+    "categoria": "Presepi e tradizioni",
+    "categoria_id": "presepi-e-tradizioni",
+    "categories": [
+      {
+        "id": "presepi-e-tradizioni",
+        "name": "Presepi e tradizioni"
+      }
+    ],
+    "data_inizio": "dal 6 al 27 dicembre 2026",
+    "data_fine": "dal 6 al 27 dicembre 2026",
+    "data_formattata": "dal 6 al 27 dicembre 2026",
+    "orario": "",
+    "inizio": "2026-12-06",
+    "fine": "2026-12-27",
+    "sede": {
+      "nome": "Chiostro dei Teatini",
+      "indirizzo": "Chiostro di Teatini",
+      "citta": "Lecce",
+      "provincia": "LE"
+    },
+    "sede_stringa": "Chiostro dei Teatini",
+    "sala": "Chiostro di Teatini",
+    "citta": "Lecce",
+    "provincia": "Lecce",
+    "modalita": "In presenza",
+    "hero_images": [
+      "assets/img/hero_lecce.jpg"
+    ],
+    "card_images": [
+      "assets/img/hero_lecce.jpg"
+    ]
+  },
+  {
+    "id": 75,
+    "comune": "Lecce",
+    "comune_id": "lecce",
+    "titolo": "Concerto di fine anno",
+    "nome": "Concerto di fine anno",
+    "descrizione": "\"Il 31 dicembre 2026, Piazza Sant'Oronzo a Lecce, sarà il palcoscenico per lo Spettacolo di Fine Anno, uno degli appuntamenti di punta delle festività natalizie. La storica piazza del centro cittadino diventerà una suggestiva scenografia a cielo aperto, valorizzando il patrimonio architettonico e culturale della città attraverso musica, spettacolo e intrattenimento.\nL'evento vedrà la partecipazione di artisti locali e nazionali, ma anche la presenza di talenti salentini per valorizzare gli artisti del territorio. La proposta artistica, che spazia tra diversi generi musicali e linguaggi espressivi, contribuisce a promuovere il territorio, le sue eccellenze culturali e offrire un programma ricco e variegato capace di coinvolgere pubblici di ogni età.\n\n\"",
+    "categoria": "Spettacoli e concerti",
+    "categoria_id": "spettacoli-e-concerti",
+    "categories": [
+      {
+        "id": "spettacoli-e-concerti",
+        "name": "Spettacoli e concerti"
+      }
+    ],
+    "data_inizio": "31 dicembre 2026",
+    "data_fine": "31 dicembre 2026",
+    "data_formattata": "31 dicembre 2026",
+    "orario": "",
+    "inizio": "2026-12-31",
+    "fine": "2026-12-31",
+    "sede": {
+      "nome": "Piazza sant'Oronzo",
+      "indirizzo": "Piazza santo Oronzo",
+      "citta": "Lecce",
+      "provincia": "LE"
+    },
+    "sede_stringa": "Piazza sant'Oronzo",
+    "sala": "Piazza santo Oronzo",
+    "citta": "Lecce",
+    "provincia": "Lecce",
+    "modalita": "In presenza",
+    "hero_images": [
+      "assets/img/hero_lecce.jpg"
+    ],
+    "card_images": [
+      "assets/img/hero_lecce.jpg"
+    ]
+  },
+  {
+    "id": 76,
+    "comune": "Lecce",
+    "comune_id": "lecce",
+    "titolo": "Presepe nell'Anfiteatro",
+    "nome": "Presepe nell'Anfiteatro",
+    "descrizione": "Dal 6 dicembre al 6 gennaio l'Anfiteatro romano di piazza Sant'Oronzo ospita il presepe che ricostruisce un tipico paesaggio salentino, con figure in cartapesta, l'arte che caratterizza il Salento. È un allestimento unico nel suo genere, che crea una forte suggestione in chi lo visita.",
+    "categoria": "Presepi e tradizioni",
+    "categoria_id": "presepi-e-tradizioni",
+    "categories": [
+      {
+        "id": "presepi-e-tradizioni",
+        "name": "Presepi e tradizioni"
+      }
+    ],
+    "data_inizio": "dal 6 dicembre 2026 al 6 gennaio 2027",
+    "data_fine": "dal 6 dicembre 2026 al 6 gennaio 2027",
+    "data_formattata": "dal 6 dicembre 2026 al 6 gennaio 2027",
+    "orario": "",
+    "inizio": "2026-12-06",
+    "fine": "2027-01-06",
+    "sede": {
+      "nome": "Anfiteatro romano\nin Piazza S.Oronzo",
+      "indirizzo": "",
+      "citta": "Lecce",
+      "provincia": "LE"
+    },
+    "sede_stringa": "Anfiteatro romano\nin Piazza S.Oronzo",
+    "sala": "Anfiteatro romano\nin Piazza S.Oronzo",
+    "citta": "Lecce",
+    "provincia": "Lecce",
+    "modalita": "In presenza",
+    "hero_images": [
+      "assets/img/hero_lecce.jpg"
+    ],
+    "card_images": [
+      "assets/img/hero_lecce.jpg"
+    ]
+  },
+  {
+    "id": 77,
+    "comune": "Lecce",
+    "comune_id": "lecce",
+    "titolo": "Cortili aperti a Natale",
+    "nome": "Cortili aperti a Natale",
+    "descrizione": "Il 13 dicembre i cortili dei palazzi storici del centro di Lecce aprono al pubblico per \"Cortili aperti a Natale\". Cittadini e turisti possono visitare luoghi insoliti, ricchi di fascino e di storia, che aprono solo due volte l'anno, in primavera e a Natale.",
+    "categoria": "Presepi e tradizioni",
+    "categoria_id": "presepi-e-tradizioni",
+    "categories": [
+      {
+        "id": "presepi-e-tradizioni",
+        "name": "Presepi e tradizioni"
+      }
+    ],
+    "data_inizio": "13 dicembre 2026",
+    "data_fine": "13 dicembre 2026",
+    "data_formattata": "13 dicembre 2026",
+    "orario": "",
+    "inizio": "2026-12-13",
+    "fine": "2026-12-13",
+    "sede": {
+      "nome": "Cortili dei palazzi\nstorici del centro",
+      "indirizzo": "Cortili dei palazzi\n- storici del centro",
+      "citta": "Lecce",
+      "provincia": "LE"
+    },
+    "sede_stringa": "Cortili dei palazzi\nstorici del centro",
+    "sala": "Cortili dei palazzi\n- storici del centro",
+    "citta": "Lecce",
+    "provincia": "Lecce",
+    "modalita": "In presenza",
+    "hero_images": [
+      "assets/img/hero_lecce.jpg"
+    ],
+    "card_images": [
+      "assets/img/hero_lecce.jpg"
+    ]
+  },
+  {
+    "id": 78,
+    "comune": "Lecce",
+    "comune_id": "lecce",
+    "titolo": "Concerti natalizi nelle chiese",
+    "nome": "Concerti natalizi nelle chiese",
+    "descrizione": "\"Un ricco programma di concerti di musica classica, sacra e gospel coinvolgerà chiese e luoghi del centro storico di Lecce durante le festività natalizie. La rassegna vedrà la partecipazione di vari artisti e formazioni quali Tyna Casalini, Jesus4Jesus, il Coro A.M. Family e numerosi altri interpreti del panorama musicale locale e nazionale.\nI concerti natalizi nelle chiese rappresentano un momento particolarmente significativo per la programmazione culturale delle festività, poiché riescono a fondere arte, spiritualità e identità cittadina in un'unica esperienza collettiva. La musica diventa così strumento di partecipazione e coesione sociale, contribuendo a creare quell'atmosfera di accoglienza e riflessione che caratterizza il periodo di Natale.\n\"",
+    "categoria": "Spettacoli e concerti",
+    "categoria_id": "spettacoli-e-concerti",
+    "categories": [
+      {
+        "id": "spettacoli-e-concerti",
+        "name": "Spettacoli e concerti"
+      }
+    ],
+    "data_inizio": "dal 6 dicembre 2026 al 5 gennaio 2027",
+    "data_fine": "dal 6 dicembre 2026 al 5 gennaio 2027",
+    "data_formattata": "dal 6 dicembre 2026 al 5 gennaio 2027",
+    "orario": "",
+    "inizio": "2026-12-06",
+    "fine": "2027-01-05",
+    "sede": {
+      "nome": "Chiese del centro \nstorico (S.Irene, S.Croce e Chiesa \ndegli Agostiniani)",
+      "indirizzo": "Chiese del centro \nstorico (S.Irene- S.Croce e Chiesa \ndegli Agostiniani)",
+      "citta": "Lecce",
+      "provincia": "LE"
+    },
+    "sede_stringa": "Chiese del centro \nstorico (S.Irene, S.Croce e Chiesa \ndegli Agostiniani)",
+    "sala": "Chiese del centro \nstorico (S.Irene- S.Croce e Chiesa \ndegli Agostiniani)",
+    "citta": "Lecce",
+    "provincia": "Lecce",
+    "modalita": "In presenza",
+    "hero_images": [
+      "assets/img/hero_lecce.jpg"
+    ],
+    "card_images": [
+      "assets/img/hero_lecce.jpg"
+    ]
+  },
+  {
+    "id": 17,
+    "comune": "Trani",
+    "comune_id": "trani",
+    "titolo": "21ª Edizione del Presepe Vivente della Città di Trani",
+    "nome": "21ª Edizione del Presepe Vivente della Città di Trani",
+    "descrizione": "Il 26, 27 e 28 dicembre 2026, dalle 17:00 alle 20:00/21:00, nel centro storico, la Cooperativa Sociale Xiao Yan organizza la 21ª edizione del Presepe Vivente, dedicata a San Francesco nell'ottavo centenario della sua morte. Il percorso guidato parte dalla Chiesa di San Giovanni in via Beltrani e prosegue per via San Martino, via La Giudea, piazzetta Sant'Anna e piazzetta Scolanova, fino all'atrio di Palazzo Broquier. Il pubblico assiste a 5 scene principali recitate e a 20 quadri scenici, con 120 comparse, tra cui persone con disabilità e in condizione di fragilità. Ci sono anche gli antichi mestieri, le degustazioni di prodotti tipici e l'apertura straordinaria di cortili e atri storici.",
+    "categoria": "Presepi e tradizioni",
+    "categoria_id": "presepi-e-tradizioni",
+    "categories": [
+      {
+        "id": "presepi-e-tradizioni",
+        "name": "Presepi e tradizioni"
+      }
+    ],
+    "data_inizio": "dal 26 al 28 dicembre 2026",
+    "data_fine": "dal 26 al 28 dicembre 2026",
+    "data_formattata": "dal 26 al 28 dicembre 2026",
+    "orario": "",
+    "inizio": "2026-12-26T17:00",
+    "fine": "2026-12-28T21:00",
+    "sede": {
+      "nome": "Via Beltrani (ingresso Chiesa S. Giovanni),\nVia S. Martino, Via La Giudea, Piazzetta S. Anna, Piazzetta Scolanova (atrio Palazzo Broquier)",
+      "indirizzo": "Via Beltrani (ingresso Chiesa S. Giovanni),\nVia S. Martino - Via La Giudea - Piazzetta S. Anna, Piazzetta Scolanova (atrio Palazzo Broquier)",
+      "citta": "Trani",
+      "provincia": "BAT"
+    },
+    "sede_stringa": "Via Beltrani (ingresso Chiesa S. Giovanni),\nVia S. Martino, Via La Giudea, Piazzetta S. Anna, Piazzetta Scolanova (atrio Palazzo Broquier)",
+    "sala": "Via Beltrani (ingresso Chiesa S. Giovanni),\nVia S. Martino - Via La Giudea - Piazzetta S. Anna, Piazzetta Scolanova (atrio Palazzo Broquier)",
+    "citta": "Trani",
+    "provincia": "Barletta-Andria-Trani",
+    "modalita": "In presenza",
+    "hero_images": [
+      "assets/img/hero_trani.jpg"
+    ],
+    "card_images": [
+      "assets/img/hero_trani.jpg"
+    ]
+  },
+  {
+    "id": 79,
+    "comune": "Trani",
+    "comune_id": "trani",
+    "titolo": "CONCERTO BANDA MUSICALE DELL'ARMA DEI CARABINIERI",
+    "nome": "CONCERTO BANDA MUSICALE DELL'ARMA DEI CARABINIERI",
+    "descrizione": "Il 6 dicembre 2026, dalle 11:00 alle 13:00, in Piazza Quercia, la Banda Musicale dell'Arma dei Carabinieri, diretta dal colonnello Massimo Martinelli, tiene un concerto aperto a tutta la cittadinanza. Saranno presenti autorità religiose, civili e militari. Il concerto fa parte dei festeggiamenti per il 50° anniversario dell'incoronazione della Beata Vergine Maria Santissima Immacolata, che si chiudono l'8 dicembre. È anche il primo giorno di Natale in Puglia 2026, e apre il calendario natalizio di Trani.",
+    "categoria": "Spettacoli e concerti",
+    "categoria_id": "spettacoli-e-concerti",
+    "categories": [
+      {
+        "id": "spettacoli-e-concerti",
+        "name": "Spettacoli e concerti"
+      }
+    ],
+    "data_inizio": "6 dicembre 2026, dalle 11:00 alle 13:00",
+    "data_fine": "6 dicembre 2026, dalle 11:00 alle 13:00",
+    "data_formattata": "6 dicembre 2026, dalle 11:00 alle 13:00",
+    "orario": "dalle 11:00 alle 13:00",
+    "inizio": "2026-12-06T11:00",
+    "fine": "2026-12-06T13:00",
+    "sede": {
+      "nome": "Piazza Quercia",
+      "indirizzo": "",
+      "citta": "Trani",
+      "provincia": "BAT"
+    },
+    "sede_stringa": "Piazza Quercia",
+    "sala": "Piazza Quercia",
+    "citta": "Trani",
+    "provincia": "Barletta-Andria-Trani",
+    "modalita": "In presenza",
+    "hero_images": [
+      "assets/img/hero_trani.jpg"
+    ],
+    "card_images": [
+      "assets/img/hero_trani.jpg"
+    ]
+  },
+  {
+    "id": 80,
+    "comune": "Foggia",
+    "comune_id": "foggia",
+    "titolo": "Giordano in Jazz – Autumn Edition",
+    "nome": "Giordano in Jazz – Autumn Edition",
+    "descrizione": "\"Il giorno di Natale, alle ore 21, in Piazza Cesare Battisti si terrà l’ultimo appuntamento della rassegna “Giordano in Jazz – Autumn Edition”, rassegna di musica jazz, soul e vocalità contemporanea. \nVincent Tharpe & Kenosis, porteranno il gospel e il soul in piazza, unendo lo spirito religioso della cultura afro-americana e la tradizione spiritual. \n\"",
+    "categoria": "Spettacoli e concerti",
+    "categoria_id": "spettacoli-e-concerti",
+    "categories": [
+      {
+        "id": "spettacoli-e-concerti",
+        "name": "Spettacoli e concerti"
+      }
+    ],
+    "data_inizio": "25 dicembre 2026, ore 21:00",
+    "data_fine": "25 dicembre 2026, ore 21:00",
+    "data_formattata": "25 dicembre 2026, ore 21:00",
+    "orario": "ore 21:00",
+    "inizio": "2026-12-25T21:00",
+    "fine": "2026-12-25T21:00",
+    "sede": {
+      "nome": "Piazza Cesare Battisti",
+      "indirizzo": "",
+      "citta": "Foggia",
+      "provincia": "FG"
+    },
+    "sede_stringa": "Piazza Cesare Battisti",
+    "sala": "Piazza Cesare Battisti",
+    "citta": "Foggia",
+    "provincia": "Foggia",
+    "modalita": "In presenza",
+    "hero_images": [
+      "assets/img/hero_foggia.jpg"
+    ],
+    "card_images": [
+      "assets/img/hero_foggia.jpg"
+    ]
+  },
+  {
+    "id": 81,
+    "comune": "Foggia",
+    "comune_id": "foggia",
+    "titolo": "Natale al Borgo",
+    "nome": "Natale al Borgo",
+    "descrizione": "\"Dalla Vigilia dell’Immacolata alla Vigilia di Natale, a partire dalle ore 18.30 nella frazione rurale Borgo Incoronata, prenderà il via la rassegna “Natale al Borgo”: giornate dedicate alla valorizzazione delle borgate rurali, delle tradizioni agricole e artigiane con l’aiuto di produttori locali, l’allestimento di presepi contadini, laboratori e un’escursione nel bosco. \nI festeggiamenti inizieranno con l’accensione dell'albero, le letterine dei piccoli a Babbo Natale, un coro di voci bianche e la tradizionale pettolata comunitaria. \n\"",
+    "categoria": "Luminarie e installazioni",
+    "categoria_id": "luminarie-e-installazioni",
+    "categories": [
+      {
+        "id": "luminarie-e-installazioni",
+        "name": "Luminarie e installazioni"
+      }
+    ],
+    "data_inizio": "7 dicembre 2026, dalle 18:30 alle 19:30",
+    "data_fine": "7 dicembre 2026, dalle 18:30 alle 19:30",
+    "data_formattata": "7 dicembre 2026, dalle 18:30 alle 19:30",
+    "orario": "dalle 18:30 alle 19:30",
+    "inizio": "2026-12-07T18:30",
+    "fine": "2026-12-07T19:30",
+    "sede": {
+      "nome": "Borgo Incoronata",
+      "indirizzo": "Borgo Incoronata 1",
+      "citta": "Foggia",
+      "provincia": "FG"
+    },
+    "sede_stringa": "Borgo Incoronata",
+    "sala": "Borgo Incoronata 1",
+    "citta": "Foggia",
+    "provincia": "Foggia",
+    "modalita": "In presenza",
+    "hero_images": [
+      "assets/img/hero_foggia.jpg"
+    ],
+    "card_images": [
+      "assets/img/hero_foggia.jpg"
+    ]
+  },
+  {
+    "id": 82,
+    "comune": "Foggia",
+    "comune_id": "foggia",
+    "titolo": "Natale al Borgo",
+    "nome": "Natale al Borgo",
+    "descrizione": "\"Dal 22 dicembre alla Vigilia di Natale, nella frazione rurale Borgo Incoronata, all’interno della rassegna “Natale al Borgo” si potrà visitare il mercatino natalizio con la partecipazione di produttori locali e l’allestimento di angoli dedicati alla gastronomia e all’artigianato. \nL’atmosfera del mercatino natalizio sarà resa più suggestiva dalla presenza di uno spazio dedicato ai giochi antichi, adatti ai bambini, ma anche curiosa attrazione per gli adulti.  \n\"",
+    "categoria": "Mercatini ed enogastronomia",
+    "categoria_id": "mercatini-ed-enogastronomia",
+    "categories": [
+      {
+        "id": "mercatini-ed-enogastronomia",
+        "name": "Mercatini ed enogastronomia"
+      }
+    ],
+    "data_inizio": "dal 22 al 24 dicembre 2026",
+    "data_fine": "dal 22 al 24 dicembre 2026",
+    "data_formattata": "dal 22 al 24 dicembre 2026",
+    "orario": "",
+    "inizio": "2026-12-22",
+    "fine": "2026-12-24",
+    "sede": {
+      "nome": "Borgo Incoronata",
+      "indirizzo": "Borgo Incoronata 2",
+      "citta": "Foggia",
+      "provincia": "FG"
+    },
+    "sede_stringa": "Borgo Incoronata",
+    "sala": "Borgo Incoronata 2",
+    "citta": "Foggia",
+    "provincia": "Foggia",
+    "modalita": "In presenza",
+    "hero_images": [
+      "assets/img/hero_foggia.jpg"
+    ],
+    "card_images": [
+      "assets/img/hero_foggia.jpg"
+    ]
+  },
+  {
+    "id": 83,
+    "comune": "Foggia",
+    "comune_id": "foggia",
+    "titolo": "Natale al Borgo",
+    "nome": "Natale al Borgo",
+    "descrizione": "\"Dal 22 dicembre alla Vigilia di Natale, nella frazione rurale Borgo Incoronata, all’interno della rassegna “Natale al Borgo” si potrà visitare il mercatino natalizio con la partecipazione di produttori locali e l’allestimento di angoli dedicati alla gastronomia e all’artigianato. \nL’atmosfera del mercatino natalizio sarà resa più suggestiva dalla presenza di uno spazio dedicato ai giochi antichi, adatti ai bambini, ma anche curiosa attrazione per gli adulti.  \n\"",
+    "categoria": "Presepi e tradizioni",
+    "categoria_id": "presepi-e-tradizioni",
+    "categories": [
+      {
+        "id": "presepi-e-tradizioni",
+        "name": "Presepi e tradizioni"
+      }
+    ],
+    "data_inizio": "dal 22 al 24 dicembre 2026",
+    "data_fine": "dal 22 al 24 dicembre 2026",
+    "data_formattata": "dal 22 al 24 dicembre 2026",
+    "orario": "",
+    "inizio": "2026-12-22",
+    "fine": "2026-12-24",
+    "sede": {
+      "nome": "Borgo Incoronata",
+      "indirizzo": "Borgo-Incoronata 3",
+      "citta": "Foggia",
+      "provincia": "FG"
+    },
+    "sede_stringa": "Borgo Incoronata",
+    "sala": "Borgo-Incoronata 3",
+    "citta": "Foggia",
+    "provincia": "Foggia",
+    "modalita": "In presenza",
+    "hero_images": [
+      "assets/img/hero_foggia.jpg"
+    ],
+    "card_images": [
+      "assets/img/hero_foggia.jpg"
+    ]
+  },
+  {
+    "id": 84,
+    "comune": "Foggia",
+    "comune_id": "foggia",
+    "titolo": "Natale al Borgo",
+    "nome": "Natale al Borgo",
+    "descrizione": "Dal 22 dicembre alla Vigilia di Natale, nella frazione rurale Borgo Incoronata, all’interno della rassegna “Natale al Borgo” l’atmosfera natalizia sarà resa più suggestiva dalla musica di strada, le note faranno da sottofondo a tutti gli eventi previsti in programma nei giorni che anticipano il Natale.",
+    "categoria": "Spettacoli e concerti",
+    "categoria_id": "spettacoli-e-concerti",
+    "categories": [
+      {
+        "id": "spettacoli-e-concerti",
+        "name": "Spettacoli e concerti"
+      }
+    ],
+    "data_inizio": "dal 22 al 24 dicembre 2026",
+    "data_fine": "dal 22 al 24 dicembre 2026",
+    "data_formattata": "dal 22 al 24 dicembre 2026",
+    "orario": "",
+    "inizio": "2026-12-22",
+    "fine": "2026-12-24",
+    "sede": {
+      "nome": "Borgo Incoronata",
+      "indirizzo": "Borgo-Incoronata 4",
+      "citta": "Foggia",
+      "provincia": "FG"
+    },
+    "sede_stringa": "Borgo Incoronata",
+    "sala": "Borgo-Incoronata 4",
+    "citta": "Foggia",
+    "provincia": "Foggia",
+    "modalita": "In presenza",
+    "hero_images": [
+      "assets/img/hero_foggia.jpg"
+    ],
+    "card_images": [
+      "assets/img/hero_foggia.jpg"
+    ]
+  },
+  {
+    "id": 85,
+    "comune": "Foggia",
+    "comune_id": "foggia",
+    "titolo": "Natale al Borgo",
+    "nome": "Natale al Borgo",
+    "descrizione": "Martedì 22 e mercoledì 23 dicembre, alle ore 19:30, Borgo Incoronata sarà protagonista di “Luci e Immagini nel borgo”, un'esperienza di videomapping che trasformerà gli spazi del borgo attraverso proiezioni luminose sugli edifici della città.",
+    "categoria": "Luminarie e installazioni",
+    "categoria_id": "luminarie-e-installazioni",
+    "categories": [
+      {
+        "id": "luminarie-e-installazioni",
+        "name": "Luminarie e installazioni"
+      }
+    ],
+    "data_inizio": "dal 22 al 23 dicembre 2026",
+    "data_fine": "dal 22 al 23 dicembre 2026",
+    "data_formattata": "dal 22 al 23 dicembre 2026",
+    "orario": "",
+    "inizio": "2026-12-22",
+    "fine": "2026-12-23",
+    "sede": {
+      "nome": "Borgo Incoronata",
+      "indirizzo": "Borgo-Incoronata 5",
+      "citta": "Foggia",
+      "provincia": "FG"
+    },
+    "sede_stringa": "Borgo Incoronata",
+    "sala": "Borgo-Incoronata 5",
+    "citta": "Foggia",
+    "provincia": "Foggia",
+    "modalita": "In presenza",
+    "hero_images": [
+      "assets/img/hero_foggia.jpg"
+    ],
+    "card_images": [
+      "assets/img/hero_foggia.jpg"
+    ]
+  },
+  {
+    "id": 86,
+    "comune": "Foggia",
+    "comune_id": "foggia",
+    "titolo": "Natale al Borgo",
+    "nome": "Natale al Borgo",
+    "descrizione": "Mercoledì 23 dicembre, alle ore 10:30, è in programma un'escursione guidata nel bosco dell'Incoronata, un'occasione per immergersi nell'ambiente naturale che circonda il borgo. Il percorso permetterà ai partecipanti di conoscere più da vicino il patrimonio paesaggistico locale, trascorrendo una mattinata all'aria aperta tra natura e scoperta del territorio.",
+    "categoria": "Eventi culturali",
+    "categoria_id": "eventi-culturali",
+    "categories": [
+      {
+        "id": "eventi-culturali",
+        "name": "Eventi culturali"
+      }
+    ],
+    "data_inizio": "23 dicembre 2026",
+    "data_fine": "23 dicembre 2026",
+    "data_formattata": "23 dicembre 2026",
+    "orario": "",
+    "inizio": "2026-12-23",
+    "fine": "2026-12-23",
+    "sede": {
+      "nome": "Borgo Incoronata",
+      "indirizzo": "Borgo-Incoronata 6",
+      "citta": "Foggia",
+      "provincia": "FG"
+    },
+    "sede_stringa": "Borgo Incoronata",
+    "sala": "Borgo-Incoronata 6",
+    "citta": "Foggia",
+    "provincia": "Foggia",
+    "modalita": "In presenza",
+    "hero_images": [
+      "assets/img/hero_foggia.jpg"
+    ],
+    "card_images": [
+      "assets/img/hero_foggia.jpg"
+    ]
+  },
+  {
+    "id": 87,
+    "comune": "Foggia",
+    "comune_id": "foggia",
+    "titolo": "Natale al Borgo",
+    "nome": "Natale al Borgo",
+    "descrizione": "Mercoledì 23 dicembre, alle ore 11:30, spazio alla tradizione gastronomica con “La Tavola Natalizia”, un laboratorio dedicato ai sapori e alle preparazioni tipiche delle feste. L'attività offrirà ai partecipanti l'opportunità di avvicinarsi alla cultura culinaria natalizia attraverso un'esperienza pratica e conviviale.",
+    "categoria": "Mercatini ed enogastronomia",
+    "categoria_id": "mercatini-ed-enogastronomia",
+    "categories": [
+      {
+        "id": "mercatini-ed-enogastronomia",
+        "name": "Mercatini ed enogastronomia"
+      }
+    ],
+    "data_inizio": "23 dicembre 2026",
+    "data_fine": "23 dicembre 2026",
+    "data_formattata": "23 dicembre 2026",
+    "orario": "",
+    "inizio": "2026-12-23",
+    "fine": "2026-12-23",
+    "sede": {
+      "nome": "Borgo Incoronata",
+      "indirizzo": "Borgo-Incoronata 7",
+      "citta": "Foggia",
+      "provincia": "FG"
+    },
+    "sede_stringa": "Borgo Incoronata",
+    "sala": "Borgo-Incoronata 7",
+    "citta": "Foggia",
+    "provincia": "Foggia",
+    "modalita": "In presenza",
+    "hero_images": [
+      "assets/img/hero_foggia.jpg"
+    ],
+    "card_images": [
+      "assets/img/hero_foggia.jpg"
+    ]
+  },
+  {
+    "id": 88,
+    "comune": "Foggia",
+    "comune_id": "foggia",
+    "titolo": "Natale al Borgo",
+    "nome": "Natale al Borgo",
+    "descrizione": "Mercoledì 23 dicembre, alle ore 17:30, Borgo Incoronata ospiterà il laboratorio “Le conserve di Natale”, dedicato alla preparazione e alla conservazione delle conserve alimentari. Un'attività che richiama le tradizioni e i saperi delle nonne.",
+    "categoria": "Mercatini ed enogastronomia",
+    "categoria_id": "mercatini-ed-enogastronomia",
+    "categories": [
+      {
+        "id": "mercatini-ed-enogastronomia",
+        "name": "Mercatini ed enogastronomia"
+      }
+    ],
+    "data_inizio": "23 dicembre 2026",
+    "data_fine": "23 dicembre 2026",
+    "data_formattata": "23 dicembre 2026",
+    "orario": "",
+    "inizio": "2026-12-23",
+    "fine": "2026-12-23",
+    "sede": {
+      "nome": "Borgo Incoronata",
+      "indirizzo": "Borgo-Incoronata 8",
+      "citta": "Foggia",
+      "provincia": "FG"
+    },
+    "sede_stringa": "Borgo Incoronata",
+    "sala": "Borgo-Incoronata 8",
+    "citta": "Foggia",
+    "provincia": "Foggia",
+    "modalita": "In presenza",
+    "hero_images": [
+      "assets/img/hero_foggia.jpg"
+    ],
+    "card_images": [
+      "assets/img/hero_foggia.jpg"
+    ]
+  },
+  {
+    "id": 89,
+    "comune": "Foggia",
+    "comune_id": "foggia",
+    "titolo": "Natale al Borgo",
+    "nome": "Natale al Borgo",
+    "descrizione": "Giovedì 24 dicembre, alle ore 14:00, il programma natalizio proseguirà con “Aperitivo del Borgo”, un appuntamento pensato per riunire residenti e visitatori nella giornata della Vigilia, per scambiarsi gli auguri e condividere insieme l'attesa del Natale.",
+    "categoria": "Presepi e tradizioni",
+    "categoria_id": "presepi-e-tradizioni",
+    "categories": [
+      {
+        "id": "presepi-e-tradizioni",
+        "name": "Presepi e tradizioni"
+      }
+    ],
+    "data_inizio": "23 dicembre 2026",
+    "data_fine": "23 dicembre 2026",
+    "data_formattata": "23 dicembre 2026",
+    "orario": "",
+    "inizio": "2026-12-23",
+    "fine": "2026-12-23",
+    "sede": {
+      "nome": "Borgo Incoronata",
+      "indirizzo": "Borgo-Incoronata 9",
+      "citta": "Foggia",
+      "provincia": "FG"
+    },
+    "sede_stringa": "Borgo Incoronata",
+    "sala": "Borgo-Incoronata 9",
+    "citta": "Foggia",
+    "provincia": "Foggia",
+    "modalita": "In presenza",
+    "hero_images": [
+      "assets/img/hero_foggia.jpg"
+    ],
+    "card_images": [
+      "assets/img/hero_foggia.jpg"
+    ]
+  },
+  {
+    "id": 90,
+    "comune": "Foggia",
+    "comune_id": "foggia",
+    "titolo": "Natale al Borgo",
+    "nome": "Natale al Borgo",
+    "descrizione": "Mercoledì 23 dicembre, alle ore 19:00, le strade di Borgo Incoronata diventeranno il palcoscenico di uno spettacolo di arte di strada. L'iniziativa porterà l'intrattenimento direttamente negli spazi del borgo, coinvolgendo cittadini e visitatori in una proposta capace di coniugare espressione artistica, animazione e atmosfera natalizia.",
+    "categoria": "Spettacoli e concerti",
+    "categoria_id": "spettacoli-e-concerti",
+    "categories": [
+      {
+        "id": "spettacoli-e-concerti",
+        "name": "Spettacoli e concerti"
+      }
+    ],
+    "data_inizio": "24 dicembre 2026",
+    "data_fine": "24 dicembre 2026",
+    "data_formattata": "24 dicembre 2026",
+    "orario": "",
+    "inizio": "2026-12-24",
+    "fine": "2026-12-24",
+    "sede": {
+      "nome": "Borgo Incoronata",
+      "indirizzo": "Borgo-Incoronata 10",
+      "citta": "Foggia",
+      "provincia": "FG"
+    },
+    "sede_stringa": "Borgo Incoronata",
+    "sala": "Borgo-Incoronata 10",
+    "citta": "Foggia",
+    "provincia": "Foggia",
+    "modalita": "In presenza",
+    "hero_images": [
+      "assets/img/hero_foggia.jpg"
+    ],
+    "card_images": [
+      "assets/img/hero_foggia.jpg"
+    ]
+  },
+  {
+    "id": 91,
+    "comune": "Foggia",
+    "comune_id": "foggia",
+    "titolo": "Natale al Borgo",
+    "nome": "Natale al Borgo",
+    "descrizione": "Dal 22 al 24 dicembre, in occasione delle tre giornate del mercatino natalizio, Borgo Incoronata ospiterà un'“Area giochi antichi” dedicata a bambini e famiglie. Uno spazio pensato per riscoprire il divertimento dei giochi di una volta, attraverso attività ludiche che richiamano le tradizioni popolari e favoriscono la partecipazione tra generazioni.",
+    "categoria": "Mercatini ed enogastronomia",
+    "categoria_id": "mercatini-ed-enogastronomia",
+    "categories": [
+      {
+        "id": "mercatini-ed-enogastronomia",
+        "name": "Mercatini ed enogastronomia"
+      }
+    ],
+    "data_inizio": "24 dicembre 2026",
+    "data_fine": "24 dicembre 2026",
+    "data_formattata": "24 dicembre 2026",
+    "orario": "",
+    "inizio": "2026-12-24",
+    "fine": "2026-12-24",
+    "sede": {
+      "nome": "Borgo Incoronata",
+      "indirizzo": "Borgo-Incoronata 11",
+      "citta": "Foggia",
+      "provincia": "FG"
+    },
+    "sede_stringa": "Borgo Incoronata",
+    "sala": "Borgo-Incoronata 11",
+    "citta": "Foggia",
+    "provincia": "Foggia",
+    "modalita": "In presenza",
+    "hero_images": [
+      "assets/img/hero_foggia.jpg"
+    ],
+    "card_images": [
+      "assets/img/hero_foggia.jpg"
+    ]
+  },
+  {
+    "id": 92,
+    "comune": "Foggia",
+    "comune_id": "foggia",
+    "titolo": "Lumina Mystica – Videomapping nel centro storico",
+    "nome": "Lumina Mystica – Videomapping nel centro storico",
+    "descrizione": "Giovedì 24 dicembre, alle ore 12:30, Borgo Incoronata accoglierà un concerto gospel dedicato alla Vigilia di Natale. Le sonorità corali e il ritmo coinvolgente della musica gospel accompagneranno il pubblico in un momento di festa e condivisione, offrendo un'occasione speciale per entrare nell'atmosfera del Natale attraverso la musica.",
+    "categoria": "Luminarie e installazioni",
+    "categoria_id": "luminarie-e-installazioni",
+    "categories": [
+      {
+        "id": "luminarie-e-installazioni",
+        "name": "Luminarie e installazioni"
+      }
+    ],
+    "data_inizio": "dal 8 al 27 dicembre 2026",
+    "data_fine": "dal 8 al 27 dicembre 2026",
+    "data_formattata": "dal 8 al 27 dicembre 2026",
+    "orario": "",
+    "inizio": "2026-12-08T20:00",
+    "fine": "2026-12-27T22:00",
+    "sede": {
+      "nome": "Via Arpi e centro storico",
+      "indirizzo": "Via Arpi/centro storico",
+      "citta": "Foggia",
+      "provincia": "FG"
+    },
+    "sede_stringa": "Via Arpi e centro storico",
+    "sala": "Via Arpi/centro storico",
+    "citta": "Foggia",
+    "provincia": "Foggia",
+    "modalita": "In presenza",
+    "hero_images": [
+      "assets/img/hero_foggia.jpg"
+    ],
+    "card_images": [
+      "assets/img/hero_foggia.jpg"
+    ]
+  },
+  {
+    "id": 93,
+    "comune": "Foggia",
+    "comune_id": "foggia",
+    "titolo": "Accensione dell’albero di Natale",
+    "nome": "Accensione dell’albero di Natale",
+    "descrizione": "Dall’Immacolata fino al 27 dicembre, dalle ore 20 alle 22, via Arpi e il centro storico ospiteranno “Lumina Mystica – Videomapping nel centro storico”: sette videoproiezioni ideate per sette facciate di alcuni palazzi storici. Ogni proiezione racconterà il Natale attraverso l’architettura di Foggia. Il percorso a piedi invita a riscoprire i luoghi del centro storico, dalla Cattedrale al Teatro Giordano",
+    "categoria": "Luminarie e installazioni",
+    "categoria_id": "luminarie-e-installazioni",
+    "categories": [
+      {
+        "id": "luminarie-e-installazioni",
+        "name": "Luminarie e installazioni"
+      }
+    ],
+    "data_inizio": "8 dicembre 2026",
+    "data_fine": "8 dicembre 2026",
+    "data_formattata": "8 dicembre 2026",
+    "orario": "",
+    "inizio": "2026-12-08",
+    "fine": "2026-12-08",
+    "sede": {
+      "nome": "Piazza Cavour",
+      "indirizzo": "P.zza Cavour 1",
+      "citta": "Foggia",
+      "provincia": "FG"
+    },
+    "sede_stringa": "Piazza Cavour",
+    "sala": "P.zza Cavour 1",
+    "citta": "Foggia",
+    "provincia": "Foggia",
+    "modalita": "In presenza",
+    "hero_images": [
+      "assets/img/hero_foggia.jpg"
+    ],
+    "card_images": [
+      "assets/img/hero_foggia.jpg"
+    ]
+  },
+  {
+    "id": 94,
+    "comune": "Foggia",
+    "comune_id": "foggia",
+    "titolo": "Concerto di Capodanno",
+    "nome": "Concerto di Capodanno",
+    "descrizione": "Il giorno dell’Immacolata, in piazza Cavour, ci sarà uno dei momenti più suggestivi di tutto il periodo natalizio: la cerimonia di accensione del grande albero di Natale, che dà il via alle festività e inaugura il percorso delle luminarie. L’evento sarà accompagnato dalla suggestione delle voci del coro gospel e Luca Gaudiano.",
+    "categoria": "Spettacoli e concerti",
+    "categoria_id": "spettacoli-e-concerti",
+    "categories": [
+      {
+        "id": "spettacoli-e-concerti",
+        "name": "Spettacoli e concerti"
+      }
+    ],
+    "data_inizio": "31 dicembre 2026",
+    "data_fine": "31 dicembre 2026",
+    "data_formattata": "31 dicembre 2026",
+    "orario": "",
+    "inizio": "2026-12-31",
+    "fine": "2026-12-31",
+    "sede": {
+      "nome": "Piazza Cavour",
+      "indirizzo": "P.zza Cavour 2",
+      "citta": "Foggia",
+      "provincia": "FG"
+    },
+    "sede_stringa": "Piazza Cavour",
+    "sala": "P.zza Cavour 2",
+    "citta": "Foggia",
+    "provincia": "Foggia",
+    "modalita": "In presenza",
+    "hero_images": [
+      "assets/img/hero_foggia.jpg"
+    ],
+    "card_images": [
+      "assets/img/hero_foggia.jpg"
+    ]
+  },
+  {
+    "id": 95,
+    "comune": "Brindisi",
+    "comune_id": "brindisi",
+    "titolo": "VILLAGGIO DI BABBO NATALE",
+    "nome": "VILLAGGIO DI BABBO NATALE",
+    "descrizione": "Il 31 dicembre, si saluterà il vecchio anno e si darà il benvenuto al nuovo tutti insieme in piazza Cavour, con un grande spettacolo musicale e un dj set a chiusura.",
+    "categoria": "Animazione e intrattenimento",
+    "categoria_id": "animazione-e-intrattenimento",
+    "categories": [
+      {
+        "id": "animazione-e-intrattenimento",
+        "name": "Animazione e intrattenimento"
+      }
+    ],
+    "data_inizio": "dal 8 dicembre 2026 al 6 gennaio 2027",
+    "data_fine": "dal 8 dicembre 2026 al 6 gennaio 2027",
+    "data_formattata": "dal 8 dicembre 2026 al 6 gennaio 2027",
+    "orario": "",
+    "inizio": "2026-12-08",
+    "fine": "2027-01-06",
+    "sede": {
+      "nome": "Piazza Vittoria",
+      "indirizzo": "P.zza Vittoria",
+      "citta": "Brindisi",
+      "provincia": "BR"
+    },
+    "sede_stringa": "Piazza Vittoria",
+    "sala": "P.zza Vittoria",
+    "citta": "Brindisi",
+    "provincia": "Brindisi",
+    "modalita": "In presenza",
+    "hero_images": [
+      "assets/img/hero_brindisi.jpg"
+    ],
+    "card_images": [
+      "assets/img/hero_brindisi.jpg"
+    ]
+  },
+  {
+    "id": 96,
+    "comune": "Brindisi",
+    "comune_id": "brindisi",
+    "titolo": "Christmas Shopping Day",
+    "nome": "Christmas Shopping Day",
+    "descrizione": "Dall'Immacolata all' Epifania Brindisi ospita il luogo più magico delle feste per bambini e famiglie: tra la Casa di Babbo Natale, elfi e mascotte, il villaggio offre laboratori creativi, giochi, spettacoli, attività per le scuole e incontri fino all'Epifania, con un allegro trenino natalizio pronto a collegare l'area al resto della città.",
+    "categoria": "Animazione e intrattenimento",
+    "categoria_id": "animazione-e-intrattenimento",
+    "categories": [
+      {
+        "id": "animazione-e-intrattenimento",
+        "name": "Animazione e intrattenimento"
+      }
+    ],
+    "data_inizio": "23 dicembre 2026",
+    "data_fine": "23 dicembre 2026",
+    "data_formattata": "23 dicembre 2026",
+    "orario": "",
+    "inizio": "2026-12-23",
+    "fine": "2026-12-23",
+    "sede": {
+      "nome": "Corsi del centro, piazza Sottile-De Falco e altre aree previste dalla proposta",
+      "indirizzo": "C.si del centro, piazza Sottile-De Falco e altre aree previste dalla proposta",
+      "citta": "Brindisi",
+      "provincia": "BR"
+    },
+    "sede_stringa": "Corsi del centro, piazza Sottile-De Falco e altre aree previste dalla proposta",
+    "sala": "C.si del centro, piazza Sottile-De Falco e altre aree previste dalla proposta",
+    "citta": "Brindisi",
+    "provincia": "Brindisi",
+    "modalita": "In presenza",
+    "hero_images": [
+      "assets/img/hero_brindisi.jpg"
+    ],
+    "card_images": [
+      "assets/img/hero_brindisi.jpg"
+    ]
+  },
+  {
+    "id": 97,
+    "comune": "Brindisi",
+    "comune_id": "brindisi",
+    "titolo": "TEATRO DEI BURATTINI - FERRAIOLO",
+    "nome": "TEATRO DEI BURATTINI - FERRAIOLO",
+    "descrizione": "Il 23 dicembre i corsi del centro, piazza Sottile-De Falco e altre aree della città ospitano il \"Christmas Shopping Day\", una giornata di shopping e intrattenimento pensata soprattutto per le famiglie. Per i bambini ci sono laboratori, magia, mascotte e lo spettacolo di Gipo. Lungo i corsi suonano street band, con musica dal vivo e DJ set. Le sedi saranno definite nel calendario definitivo.",
+    "categoria": "Animazione e intrattenimento",
+    "categoria_id": "animazione-e-intrattenimento",
+    "categories": [
+      {
+        "id": "animazione-e-intrattenimento",
+        "name": "Animazione e intrattenimento"
+      }
+    ],
+    "data_inizio": "dal 26 al 28 dicembre 2026",
+    "data_fine": "dal 26 al 28 dicembre 2026",
+    "data_formattata": "dal 26 al 28 dicembre 2026",
+    "orario": "",
+    "inizio": "2026-12-26",
+    "fine": "2026-12-28",
+    "sede": {
+      "nome": "Largo Gianni D’Errico",
+      "indirizzo": "L.rgo Gianni D’Errico",
+      "citta": "Brindisi",
+      "provincia": "BR"
+    },
+    "sede_stringa": "Largo Gianni D’Errico",
+    "sala": "L.rgo Gianni D’Errico",
+    "citta": "Brindisi",
+    "provincia": "Brindisi",
+    "modalita": "In presenza",
+    "hero_images": [
+      "assets/img/hero_brindisi.jpg"
+    ],
+    "card_images": [
+      "assets/img/hero_brindisi.jpg"
+    ]
+  },
+  {
+    "id": 98,
+    "comune": "Brindisi",
+    "comune_id": "brindisi",
+    "titolo": "Concerto di Capodanno",
+    "nome": "Concerto di Capodanno",
+    "descrizione": "Dal 26 al 28 dicembre largo Gianni D'Errico ospita il Teatro dei Burattini della famiglia Ferraiolo. Gli spettacoli si ispirano alla Commedia dell'Arte e al teatro popolare napoletano e sono adatti a bambini e adulti. Le rappresentazioni durano circa 30 minuti e le storie vengono scelte di volta in volta in base al pubblico presente.",
+    "categoria": "Spettacoli e concerti",
+    "categoria_id": "spettacoli-e-concerti",
+    "categories": [
+      {
+        "id": "spettacoli-e-concerti",
+        "name": "Spettacoli e concerti"
+      }
+    ],
+    "data_inizio": "1 gennaio 2027",
+    "data_fine": "1 gennaio 2027",
+    "data_formattata": "1 gennaio 2027",
+    "orario": "",
+    "inizio": "2027-01-01",
+    "fine": "2027-01-01",
+    "sede": {
+      "nome": "Nuovo Teatro Verdi",
+      "indirizzo": "Teatro Verdi",
+      "citta": "Brindisi",
+      "provincia": "BR"
+    },
+    "sede_stringa": "Nuovo Teatro Verdi",
+    "sala": "Teatro Verdi",
+    "citta": "Brindisi",
+    "provincia": "Brindisi",
+    "modalita": "In presenza",
+    "hero_images": [
+      "assets/img/hero_brindisi.jpg"
+    ],
+    "card_images": [
+      "assets/img/hero_brindisi.jpg"
+    ]
+  },
+  {
+    "id": 99,
+    "comune": "Brindisi",
+    "comune_id": "brindisi",
+    "titolo": "Concerto  Notte di Capodanno",
+    "nome": "Concerto  Notte di Capodanno",
+    "descrizione": "Il 1° gennaio il Nuovo Teatro Verdi ospita il Concerto di Capodanno dell'orchestra OLES, diretta dal maestro Marco Delisi. In programma ci sono i classici del repertorio augurale di inizio anno, tra cui le musiche di Strauss.",
+    "categoria": "Spettacoli e concerti",
+    "categoria_id": "spettacoli-e-concerti",
+    "categories": [
+      {
+        "id": "spettacoli-e-concerti",
+        "name": "Spettacoli e concerti"
+      }
+    ],
+    "data_inizio": "31 dicembre 2026, ore 20:30",
+    "data_fine": "31 dicembre 2026, ore 20:30",
+    "data_formattata": "31 dicembre 2026, ore 20:30",
+    "orario": "ore 20:30",
+    "inizio": "2026-12-31T20:30",
+    "fine": "2026-12-31T20:30",
+    "sede": {
+      "nome": "Corso Umberto 1",
+      "indirizzo": "C.rso Umberto 1",
+      "citta": "Brindisi",
+      "provincia": "BR"
+    },
+    "sede_stringa": "Corso Umberto 1",
+    "sala": "C.rso Umberto 1",
+    "citta": "Brindisi",
+    "provincia": "Brindisi",
+    "modalita": "In presenza",
+    "hero_images": [
+      "assets/img/hero_brindisi.jpg"
+    ],
+    "card_images": [
+      "assets/img/hero_brindisi.jpg"
+    ]
+  },
+  {
+    "id": 100,
+    "comune": "Brindisi",
+    "comune_id": "brindisi",
+    "titolo": "Concerto  Notte di Capodanno",
+    "nome": "Concerto  Notte di Capodanno",
+    "descrizione": "Il 31 dicembre alle 20:30 corso Umberto I ospita il Concerto della notte di Capodanno, il grande appuntamento musicale di San Silvestro con Franco126 e Ariete. Sono due nomi di rilievo nazionale della musica italiana contemporanea, capaci di richiamare pubblico da tutta la Puglia e da altre regioni. Radio Ciccio Riccio cura il pre e l'after show e trasmette la serata in diretta radiofonica.",
+    "categoria": "Spettacoli e concerti",
+    "categoria_id": "spettacoli-e-concerti",
+    "categories": [
+      {
+        "id": "spettacoli-e-concerti",
+        "name": "Spettacoli e concerti"
+      }
+    ],
+    "data_inizio": "31 dicembre 2026",
+    "data_fine": "31 dicembre 2026",
+    "data_formattata": "31 dicembre 2026",
+    "orario": "",
+    "inizio": "2026-12-31",
+    "fine": "2026-12-31",
+    "sede": {
+      "nome": "Corso Umberto 1",
+      "indirizzo": "C.so Umberto 1",
+      "citta": "Brindisi",
+      "provincia": "BR"
+    },
+    "sede_stringa": "Corso Umberto 1",
+    "sala": "C.so Umberto 1",
+    "citta": "Brindisi",
+    "provincia": "Brindisi",
+    "modalita": "In presenza",
+    "hero_images": [
+      "assets/img/hero_brindisi.jpg"
+    ],
+    "card_images": [
+      "assets/img/hero_brindisi.jpg"
+    ]
+  },
+  {
+    "id": 101,
+    "comune": "Bari",
+    "comune_id": "bari",
+    "titolo": "ACCENSIONE ALBERO DI NATALE",
+    "nome": "ACCENSIONE ALBERO DI NATALE",
+    "descrizione": "Sabato 5 dicembre, Piazza del Ferrarese ospiterà la tradizionale accensione dell'Albero di Natale, appuntamento che segnerà ufficialmente l'inizio delle festività natalizie a Bari. L'illuminazione dell'albero darà il via al calendario delle iniziative cittadine, trasformando uno dei luoghi simbolo del centro in un punto di ritrovo per cittadini e visitatori, pronti a immergersi nell'atmosfera delle feste.",
+    "categoria": "Luminarie e installazioni",
+    "categoria_id": "luminarie-e-installazioni",
+    "categories": [
+      {
+        "id": "luminarie-e-installazioni",
+        "name": "Luminarie e installazioni"
+      }
+    ],
+    "data_inizio": "5 dicembre 2026",
+    "data_fine": "5 dicembre 2026",
+    "data_formattata": "5 dicembre 2026",
+    "orario": "",
+    "inizio": "2026-12-05",
+    "fine": "2026-12-05",
+    "sede": {
+      "nome": "Piazza del Ferrarese",
+      "indirizzo": "",
+      "citta": "Bari",
+      "provincia": "BA"
+    },
+    "sede_stringa": "Piazza del Ferrarese",
+    "sala": "Piazza del Ferrarese",
+    "citta": "Bari",
+    "provincia": "Bari",
+    "modalita": "In presenza",
+    "hero_images": [
+      "assets/img/hero_bari.jpg"
+    ],
+    "card_images": [
+      "assets/img/hero_bari.jpg"
+    ]
+  },
+  {
+    "id": 102,
+    "comune": "Bari",
+    "comune_id": "bari",
+    "titolo": "BARI ACCENDE IL NATALE",
+    "nome": "BARI ACCENDE IL NATALE",
+    "descrizione": "Lunedì 7 dicembre, in occasione della vigilia della festività dell'Immacolata, Piazza del Ferrarese farà da palcoscenico a “Bari accende il Natale”, evento musicale organizzato da Telebari srl. La serata vedrà alternarsi sul palco artisti di rilievo nazionale, dando vita a uno spettacolo pensato per coinvolgere il pubblico e celebrare insieme l'avvicinarsi del Natale.",
+    "categoria": "Spettacoli e concerti",
+    "categoria_id": "spettacoli-e-concerti",
+    "categories": [
+      {
+        "id": "spettacoli-e-concerti",
+        "name": "Spettacoli e concerti"
+      }
+    ],
+    "data_inizio": "7 dicembre 2026",
+    "data_fine": "7 dicembre 2026",
+    "data_formattata": "7 dicembre 2026",
+    "orario": "",
+    "inizio": "2026-12-07",
+    "fine": "2026-12-07",
+    "sede": {
+      "nome": "Piazza del Ferrarese",
+      "indirizzo": "P.zza del Ferrarese",
+      "citta": "Bari",
+      "provincia": "BA"
+    },
+    "sede_stringa": "Piazza del Ferrarese",
+    "sala": "P.zza del Ferrarese",
+    "citta": "Bari",
+    "provincia": "Bari",
+    "modalita": "In presenza",
+    "hero_images": [
+      "assets/img/hero_bari.jpg"
+    ],
+    "card_images": [
+      "assets/img/hero_bari.jpg"
+    ]
+  },
+  {
+    "id": 103,
+    "comune": "Bari",
+    "comune_id": "bari",
+    "titolo": "CAPODANNO A BARI",
+    "nome": "CAPODANNO A BARI",
+    "descrizione": "Giovedì 31 dicembre, Piazza della Libertà sarà il cuore dei festeggiamenti per l'arrivo del nuovo anno con “Capodanno a Bari”, uno spettacolo musicale che accompagnerà la città nella notte di San Silvestro. Sul palco saliranno grandi protagonisti della musica italiana, per una serata di intrattenimento che culminerà nel conto alla rovescia verso il 2027.",
+    "categoria": "Spettacoli e concerti",
+    "categoria_id": "spettacoli-e-concerti",
+    "categories": [
+      {
+        "id": "spettacoli-e-concerti",
+        "name": "Spettacoli e concerti"
+      }
+    ],
+    "data_inizio": "31 dicembre 2026",
+    "data_fine": "31 dicembre 2026",
+    "data_formattata": "31 dicembre 2026",
+    "orario": "",
+    "inizio": "2026-12-31",
+    "fine": "2026-12-31",
+    "sede": {
+      "nome": "Piazza Libertà",
+      "indirizzo": "P.zza Libertà",
+      "citta": "BARI",
+      "provincia": "BA"
+    },
+    "sede_stringa": "Piazza Libertà",
+    "sala": "P.zza Libertà",
+    "citta": "BARI",
+    "provincia": "Bari",
+    "modalita": "In presenza",
+    "hero_images": [
+      "assets/img/hero_bari.jpg"
+    ],
+    "card_images": [
+      "assets/img/hero_bari.jpg"
+    ]
+  },
+  {
+    "id": 104,
+    "comune": "Bari",
+    "comune_id": "bari",
+    "titolo": "NATALE NEI MUNICIPI",
+    "nome": "NATALE NEI MUNICIPI",
+    "descrizione": "Per tutto il mese di dicembre 2026, i cinque Municipi di Bari saranno coinvolti in “Natale nei Municipi”, una rassegna di iniziative diffuse pensata per portare le celebrazioni natalizie nei diversi quartieri della città. Il programma animerà numerosi luoghi al di fuori del centro cittadino, coinvolgendo le comunità locali.",
+    "categoria": "Animazione e intrattenimento",
+    "categoria_id": "animazione-e-intrattenimento",
+    "categories": [
+      {
+        "id": "animazione-e-intrattenimento",
+        "name": "Animazione e intrattenimento"
+      }
+    ],
+    "data_inizio": "dal 1 al 31 dicembre 2026",
+    "data_fine": "dal 1 al 31 dicembre 2026",
+    "data_formattata": "dal 1 al 31 dicembre 2026",
+    "orario": "",
+    "inizio": "2026-12-01",
+    "fine": "2026-12-31",
+    "sede": {
+      "nome": "5 Municipi",
+      "indirizzo": "",
+      "citta": "Bari",
+      "provincia": "BA"
+    },
+    "sede_stringa": "5 Municipi",
+    "sala": "5 Municipi",
+    "citta": "Bari",
+    "provincia": "Bari",
+    "modalita": "In presenza",
+    "hero_images": [
+      "assets/img/hero_bari.jpg"
+    ],
+    "card_images": [
+      "assets/img/hero_bari.jpg"
+    ]
+  }
+];
+window.TLR_EVENTI = window.NATALE_EVENTI;

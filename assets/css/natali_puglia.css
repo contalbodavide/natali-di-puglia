@@ -268,36 +268,40 @@ body.tlr-b {
   align-items: flex-start;
   gap: 4px;
   height: 100%;
-  min-height: 114px;
+  min-height: 118px;
   padding: 14px 16px 14px 16px;
   border-radius: var(--tlr-r-voce);
-  background: var(--tlr-nero-2);
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  background-color: var(--tlr-nero-2);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 1px solid rgba(255, 255, 255, 0.15);
   text-decoration: none;
-  transition: background-color .15s, border-color .15s, transform .15s;
+  overflow: hidden;
+  transition: transform .15s, border-color .15s, box-shadow .15s;
 }
 
 .tlr-tutte a:hover {
-  background: rgba(255, 255, 255, 0.18);
   border-color: var(--tlr-oro);
   transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.45);
 }
 
 .tlr-tutte a.is-active {
-  background: var(--tlr-bianco);
-  border-color: var(--tlr-bianco);
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.35);
+  border-color: var(--tlr-oro);
+  box-shadow: 0 0 0 2px var(--tlr-oro), 0 6px 18px rgba(0, 0, 0, 0.45);
 }
 
 .tlr-tutte-k {
-  font-size: 0.75rem;
-  font-weight: 600;
+  font-size: 0.72rem;
+  font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 0.06em;
-  color: var(--tlr-grigio-su-nero);
+  letter-spacing: 0.08em;
+  color: #FDE68A;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.85);
 }
 .tlr-tutte a.is-active .tlr-tutte-k {
-  color: var(--tlr-grigio-testo);
+  color: #FDE68A;
 }
 
 .tlr-tutte-v {
@@ -306,11 +310,12 @@ body.tlr-b {
   font-weight: 800;
   line-height: 1.1;
   text-transform: uppercase;
-  letter-spacing: -0.02em;
-  color: #fff;
+  letter-spacing: -0.01em;
+  color: #ffffff;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.9);
 }
 .tlr-tutte a.is-active .tlr-tutte-v {
-  color: var(--tlr-nero);
+  color: #ffffff;
 }
 
 .tlr-tutte-cnt {
@@ -318,13 +323,53 @@ body.tlr-b {
   font-weight: 700;
   padding: 2px 8px;
   border-radius: var(--tlr-r-pill);
-  background: rgba(255, 255, 255, 0.12);
-  color: var(--tlr-oro);
+  background: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(4px);
+  color: #E2E8F0;
+  border: 1px solid rgba(255, 255, 255, 0.2);
   margin-top: 4px;
 }
 .tlr-tutte a.is-active .tlr-tutte-cnt {
-  background: var(--tlr-grigio-caldo);
-  color: var(--tlr-oro-scuro);
+  background: var(--tlr-oro);
+  color: var(--tlr-nero);
+  border-color: var(--tlr-oro);
+}
+
+/* BAT 3-Cities Showcase */
+.tlr-bat-cities-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 16px;
+  margin-top: 24px;
+}
+.tlr-bat-city-card {
+  position: relative;
+  min-height: 180px;
+  border-radius: 12px;
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  overflow: hidden;
+}
+.tlr-bat-city-card h3 {
+  font-family: var(--tlr-font-titoli);
+  font-size: 22px;
+  font-weight: 800;
+  margin: 0 0 4px;
+  color: #FDE68A;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.8);
+}
+.tlr-bat-city-card p {
+  font-size: 13px;
+  color: #F1F5F9;
+  margin: 0;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.8);
 }
 
 /* --------------------------------------------------------------------------

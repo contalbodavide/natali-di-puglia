@@ -1,31 +1,19 @@
-# Natali di Puglia — Portale Statico Ufficiale
+# Natale in Puglia 2026 – Segui le Stelle
+## Portale Statico Ufficiale
 
-Pagine HTML statiche generate per la campagna natalizia **"Segui le stelle, festeggia in Puglia"** (6 dicembre – 6 gennaio), promossa da **Regione Puglia** in collaborazione con **Puglia Culture**.
+Sito statico generato automaticamente a partire dal calendario delle iniziative di punta approvate.
 
-## Struttura dei File Pronti per il Deposito / Deploy
+### Caratteristiche del Portale
+- **Grafica ufficiale**: Adattata fedelmente dal sito istituzionale [regione.puglia.it/seguilestelle](https://regione.puglia.it/seguilestelle/).
+- **8 Comuni ufficiali**: Bari, Foggia, Barletta, Andria, Trani, Taranto, Brindisi, Lecce.
+- **Categorizzazione**: Eventi suddivisi per Luminarie, Spettacoli e concerti, Presepi e tradizioni, Animazione, Mercatini ed enogastronomia, Eventi culturali.
+- **Date e Orari conformi alle linee guida editoriali**:
+  * Eventi a data singola: data con orario/intervallo o sola data.
+  * Eventi su più giorni: dicitura periodo esatta (*dal ... al ...*).
+- **Sedi & Luoghi**:
+  * Visualizzazione della sede e città per ciascun evento.
+  * Gestione automatica per eventi a sede diffusa (es. Taranto).
+  * Link di geolocalizzazione per calcolo percorso su Google Maps.
+- **100% Statico (Zero API)**: Funziona offline in locale (doppio clic su `index.html`), su chiavetta USB o caricato su qualsiasi web hosting statico (GitHub Pages, Apache, Nginx, Netlify, S3) senza bisogno di database o server backend.
 
-- `index.html`: Portale regionale principale (Tutta la Puglia, filtri completi e ricerca dinamica)
-- `bari.html`: Pagina dedicata alla Città Metropolitana di Bari
-- `bat.html`: Pagina dedicata alla Provincia di Barletta-Andria-Trani
-- `brindisi.html`: Pagina dedicata alla Provincia di Brindisi
-- `foggia.html`: Pagina dedicata alla Provincia di Foggia (Gargano & Monti Dauni)
-- `lecce.html`: Pagina dedicata alla Provincia di Lecce (Salento)
-- `taranto.html`: Pagina dedicata alla Provincia di Taranto (Terra Ionica)
-- `assets/css/natali_puglia.css`: Foglio di stile editoriale (Stile Tutta la Rossani)
-- `assets/js/natali_puglia.js`: Script di navigazione, filtri e calendario (.ics)
-- `assets/js/dati_eventi.js`: Database statico JSON degli eventi
-- `assets/img/Puglia.svg`: Logo ufficiale vettoriale Regione Puglia
-- `assets/img/natali_puglia_hero.jpg`: Grafica ufficiale della campagna
-
-## Come depositare nel Repository Git / Codice
-
-Puoi caricare l'intero contenuto di questa cartella nel tuo repository Git:
-
-```bash
-git init
-git add .
-git commit -m "Deploy portale statico Natali di Puglia"
-git push origin main
-```
-
-Le pagine sono **100% statiche**: funzionano su qualsiasi hosting web (Aruba, Apache, Nginx, GitHub Pages, Netlify, Vercel, AWS S3) senza bisogno di database o server backend.
+Totale iniziative caricate: **43**.
