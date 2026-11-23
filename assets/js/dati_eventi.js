@@ -294,9 +294,9 @@ window.NATALE_EVENTI = [
         "name": "Luminarie e installazioni"
       }
     ],
-    "data_inizio": "6 gennaio 2027",
-    "data_fine": "6 gennaio 2027",
-    "data_formattata": "6 gennaio 2027",
+    "data_inizio": "fino al 6 gennaio 2027",
+    "data_fine": "fino al 6 gennaio 2027",
+    "data_formattata": "fino al 6 gennaio 2027",
     "orario": "",
     "inizio": "",
     "fine": "2027-01-06",
@@ -334,9 +334,9 @@ window.NATALE_EVENTI = [
         "name": "Luminarie e installazioni"
       }
     ],
-    "data_inizio": "6 gennaio 2027",
-    "data_fine": "6 gennaio 2027",
-    "data_formattata": "6 gennaio 2027",
+    "data_inizio": "fino al 6 gennaio 2027",
+    "data_fine": "fino al 6 gennaio 2027",
+    "data_formattata": "fino al 6 gennaio 2027",
     "orario": "",
     "inizio": "",
     "fine": "2027-01-06",

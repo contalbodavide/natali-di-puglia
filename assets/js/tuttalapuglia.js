@@ -139,7 +139,7 @@ COMUNI.forEach(function (c, i) {
     }
     return ev;
   }
-  function perData(x, y) { return chiave(x._inizio) - chiave(y._inizio) || chiave(x._fine, true) - chiave(y._fine, true); }
+  function perData(x, y) { return chiave(x._inizio || x._fine) - chiave(y._inizio || y._fine) || chiave(x._fine, true) - chiave(y._fine, true); }
 
   var TUTTI = null;
   function tuttiGliEventi() {
@@ -274,7 +274,7 @@ COMUNI.forEach(function (c, i) {
     }
     var mesi = [], perMese = {};
     futuri.forEach(function (ev) {
-      var p = ev._inizio, k = p ? p.y + '-' + pad(p.m) : 'nd';
+      var p = ev._inizio || ev._fine, k = p ? p.y + '-' + pad(p.m) : 'nd';
       if (!perMese[k]) { perMese[k] = []; mesi.push(k); }
       perMese[k].push(ev);
     });
