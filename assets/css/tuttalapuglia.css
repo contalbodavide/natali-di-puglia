@@ -93,7 +93,8 @@ button { font: inherit; color: inherit; }
   color: var(--tlr-grigio-su-nero);
 }
 .tlr-hero-date { color: var(--tlr-bianco); font-weight: 700; font-variant-numeric: tabular-nums; }
-.tlr-hero-brand { display: flex; align-items: center; gap: 12px; margin: 0; }
+.tlr-hero-brand { display: flex; align-items: center; gap: 12px; margin: 0; text-decoration: none; color: var(--tlr-bianco); transition: opacity .15s ease; }
+.tlr-hero-brand:hover { opacity: .85; }
 .tlr-hero-brand-tx { font-size: 1.375rem; font-weight: 800; letter-spacing: .14em; line-height: 1; }
 .tlr-hero-brand img { display: block; height: 44px; width: auto; }
 @media (max-width: 600px) { .tlr-hero-brand-tx { font-size: 1.125rem; } .tlr-hero-brand img { height: 34px; } }
