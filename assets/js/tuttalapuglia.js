@@ -122,6 +122,10 @@ COMUNI.forEach(function (c, i) {
     return '<time datetime="' + (da ? isoAttr(da) : '') + '">' + esc(p.giorni) + '</time>' +
       (p.orari ? ' · <span class="tlr-ora">' + esc(p.orari) + '</span>' : '');
   }
+  function slugify(s) {
+    if (!s) { return ''; }
+    return String(s).toLowerCase().trim().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
+  }
   var ADESSO = chiave(partiDa(new Date()));
   function passato(ev) { return false; }
 
@@ -342,7 +346,7 @@ COMUNI.forEach(function (c, i) {
       '<p class="tlr-vconta">' + contaHtml(eventi) + '</p>';
     var cats = categorieDi(eventi);
     if (cats.length) {
-      h += '<p class="tlr-filtri-k">Categorie di questo comune <span>(il filtro mostra gli eventi di tutti i comuni)</span></p>' +
+      h += '<p class="tlr-filtri-k">Categorie di questo comune</p>' +
         '<ul class="tlr-filtri tlr-filtri--testa" aria-label="Filtra per categoria">' + chipCategorie(cats) + '</ul>';
     }
     return h + '</header>' + elencoHtml(eventi, { conComune: false, pre: 'c' }) + navComuni(c);
