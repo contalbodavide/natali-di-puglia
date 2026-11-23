@@ -662,3 +662,31 @@ COMUNI.forEach(function (c, i) {
     box.classList.add('is-pronto');
   });
 })();
+
+/* ---------- Tasto Flottante Torna su ---------- */
+(function () {
+  var btn = document.getElementById('tlr-torna-su');
+  if (!btn) return;
+  var scrolling = false;
+  function controllaScroll() {
+    if (!scrolling) {
+      window.requestAnimationFrame(function () {
+        if (window.scrollY > 280) {
+          btn.classList.add('is-visibile');
+        } else {
+          btn.classList.remove('is-visibile');
+        }
+        scrolling = false;
+      });
+      scrolling = true;
+    }
+  }
+  window.addEventListener('scroll', controllaScroll, { passive: true });
+  btn.addEventListener('click', function (e) {
+    e.preventDefault();
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  });
+})();
