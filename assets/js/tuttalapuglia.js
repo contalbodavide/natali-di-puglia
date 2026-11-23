@@ -150,6 +150,7 @@ COMUNI.forEach(function (c, i) {
         var cId = ev.comune_id || (ev.comune && ev.comune.toLowerCase().trim());
         var c = COMUNE[cId] || COMUNE_PER_NOME[cId] || { id: cId, nome: ev.comune, prefisso: 'Natale a' };
         var evNorm = normalizza(Object.assign({}, ev), c);
+        if (!evNorm._inizio && !evNorm._fine) { return; }
         var k = c.id + '|' + evNorm.id;
         if (!visti[k]) {
           visti[k] = true;

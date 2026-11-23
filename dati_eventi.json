@@ -361,86 +361,6 @@
   },
   {
     "id": 10,
-    "comune": "Taranto",
-    "comune_id": "taranto",
-    "titolo": "Eventi diffusi nelle periferie",
-    "nome": "Eventi diffusi nelle periferie",
-    "descrizione": "Durante le festività natalizie gli eventi si sposteranno anche nei quartieri periferici di Taranto. In nove zone della città, cioè San Vito, Lama, Talsano, Tramontone, Paolo VI, Tamburi, Salinella, Lido Azzurro e Città Vecchia, sono previste iniziative culturali, concerti e momenti di animazione.",
-    "categoria": "Animazione e intrattenimento",
-    "categoria_id": "animazione-e-intrattenimento",
-    "categories": [
-      {
-        "id": "animazione-e-intrattenimento",
-        "name": "Animazione e intrattenimento"
-      }
-    ],
-    "data_inizio": "Data da definire",
-    "data_fine": "Data da definire",
-    "data_formattata": "Data da definire",
-    "orario": "",
-    "inizio": "",
-    "fine": "",
-    "sede": {
-      "nome": "Sede diffusa nel comune di Taranto",
-      "indirizzo": "",
-      "citta": "Taranto",
-      "provincia": "TA"
-    },
-    "sede_stringa": "Sede diffusa nel comune di Taranto",
-    "sala": "",
-    "citta": "Taranto",
-    "provincia": "Taranto",
-    "modalita": "In presenza",
-    "hero_images": [
-      "assets/img/cat_animazione-e-intrattenimento.png",
-      "assets/img/hero_taranto.jpg"
-    ],
-    "card_images": [
-      "assets/img/cat_animazione-e-intrattenimento.png"
-    ]
-  },
-  {
-    "id": 11,
-    "comune": "Taranto",
-    "comune_id": "taranto",
-    "titolo": "Eventi diffusi nelle vie commerciali",
-    "nome": "Eventi diffusi nelle vie commerciali",
-    "descrizione": "Durante le feste l’animazione arriverà anche nelle vie dello shopping. Sono previsti due eventi, con spettacoli e intrattenimento, in Viale Liguria, nel quartiere Italia-Montegranaro, e in Via Cesare Battisti, nel quartiere Tre Carrare–Battisti. Saranno un’occasione per fare acquisti in un clima di festa e per sostenere i negozi del quartiere.",
-    "categoria": "Animazione e intrattenimento",
-    "categoria_id": "animazione-e-intrattenimento",
-    "categories": [
-      {
-        "id": "animazione-e-intrattenimento",
-        "name": "Animazione e intrattenimento"
-      }
-    ],
-    "data_inizio": "Data da definire",
-    "data_fine": "Data da definire",
-    "data_formattata": "Data da definire",
-    "orario": "",
-    "inizio": "",
-    "fine": "",
-    "sede": {
-      "nome": "Viale Liguria e Via C.Battisti",
-      "indirizzo": "",
-      "citta": "Taranto",
-      "provincia": "TA"
-    },
-    "sede_stringa": "Viale Liguria e Via C.Battisti",
-    "sala": "",
-    "citta": "Taranto",
-    "provincia": "Taranto",
-    "modalita": "In presenza",
-    "hero_images": [
-      "assets/img/cat_animazione-e-intrattenimento.png",
-      "assets/img/hero_taranto.jpg"
-    ],
-    "card_images": [
-      "assets/img/cat_animazione-e-intrattenimento.png"
-    ]
-  },
-  {
-    "id": 12,
     "comune": "Lecce",
     "comune_id": "lecce",
     "titolo": "Fiera dei Pupi",
@@ -480,7 +400,7 @@
     ]
   },
   {
-    "id": 13,
+    "id": 11,
     "comune": "Lecce",
     "comune_id": "lecce",
     "titolo": "Concerto di fine anno",
@@ -520,7 +440,7 @@
     ]
   },
   {
-    "id": 14,
+    "id": 12,
     "comune": "Lecce",
     "comune_id": "lecce",
     "titolo": "Presepe nell'Anfiteatro",
@@ -560,7 +480,7 @@
     ]
   },
   {
-    "id": 15,
+    "id": 13,
     "comune": "Lecce",
     "comune_id": "lecce",
     "titolo": "Cortili aperti a Natale",
@@ -600,47 +520,7 @@
     ]
   },
   {
-    "id": 16,
-    "comune": "Lecce",
-    "comune_id": "lecce",
-    "titolo": "Concerti natalizi nelle chiese",
-    "nome": "Concerti natalizi nelle chiese",
-    "descrizione": "Un ricco programma di concerti di musica classica, sacra e gospel coinvolgerà chiese e luoghi del centro storico di Lecce durante le festività natalizie. La rassegna vedrà la partecipazione di vari artisti e formazioni quali Tyna Casalini, Jesus4Jesus, il Coro A.M. Family e numerosi altri interpreti del panorama musicale locale e nazionale.\nI concerti natalizi nelle chiese rappresentano un momento particolarmente significativo per la programmazione culturale delle festività, poiché riescono a fondere arte, spiritualità e identità cittadina in un'unica esperienza collettiva. La musica diventa così strumento di partecipazione e coesione sociale, contribuendo a creare quell'atmosfera di accoglienza e riflessione che caratterizza il periodo di Natale.",
-    "categoria": "Spettacoli e concerti",
-    "categoria_id": "spettacoli-e-concerti",
-    "categories": [
-      {
-        "id": "spettacoli-e-concerti",
-        "name": "Spettacoli e concerti"
-      }
-    ],
-    "data_inizio": "Data da definire",
-    "data_fine": "Data da definire",
-    "data_formattata": "Data da definire",
-    "orario": "",
-    "inizio": "varie date",
-    "fine": "varie date",
-    "sede": {
-      "nome": "Chiese del centro \nstorico (S.Irene, S.Croce e Chiesa \ndegli Agostiniani)",
-      "indirizzo": "",
-      "citta": "Lecce",
-      "provincia": "LE"
-    },
-    "sede_stringa": "Chiese del centro \nstorico (S.Irene, S.Croce e Chiesa \ndegli Agostiniani)",
-    "sala": "",
-    "citta": "Lecce",
-    "provincia": "Lecce",
-    "modalita": "In presenza",
-    "hero_images": [
-      "assets/img/cat_spettacoli-e-concerti.png",
-      "assets/img/hero_lecce.jpg"
-    ],
-    "card_images": [
-      "assets/img/cat_spettacoli-e-concerti.png"
-    ]
-  },
-  {
-    "id": 17,
+    "id": 14,
     "comune": "Trani",
     "comune_id": "trani",
     "titolo": "21ª Edizione del Presepe Vivente della Città di Trani",
@@ -680,7 +560,7 @@
     ]
   },
   {
-    "id": 18,
+    "id": 15,
     "comune": "Trani",
     "comune_id": "trani",
     "titolo": "CONCERTO BANDA MUSICALE DELL'ARMA DEI CARABINIERI",
@@ -720,7 +600,7 @@
     ]
   },
   {
-    "id": 19,
+    "id": 16,
     "comune": "Foggia",
     "comune_id": "foggia",
     "titolo": "Giordano in Jazz – Autumn Edition",
@@ -760,7 +640,7 @@
     ]
   },
   {
-    "id": 20,
+    "id": 17,
     "comune": "Foggia",
     "comune_id": "foggia",
     "titolo": "Natale al Borgo – Inaugurazione e accensione dell'albero",
@@ -800,7 +680,7 @@
     ]
   },
   {
-    "id": 21,
+    "id": 18,
     "comune": "Foggia",
     "comune_id": "foggia",
     "titolo": "Natale al Borgo – Mercatino natalizio e prodotti tipici",
@@ -840,7 +720,7 @@
     ]
   },
   {
-    "id": 22,
+    "id": 19,
     "comune": "Foggia",
     "comune_id": "foggia",
     "titolo": "Natale al Borgo – Mostra dei presepi contadini",
@@ -880,7 +760,7 @@
     ]
   },
   {
-    "id": 23,
+    "id": 20,
     "comune": "Foggia",
     "comune_id": "foggia",
     "titolo": "Natale al Borgo – Musica di strada",
@@ -920,7 +800,7 @@
     ]
   },
   {
-    "id": 24,
+    "id": 21,
     "comune": "Foggia",
     "comune_id": "foggia",
     "titolo": "Natale al Borgo – Luci e Immagini: Videomapping",
@@ -960,7 +840,7 @@
     ]
   },
   {
-    "id": 25,
+    "id": 22,
     "comune": "Foggia",
     "comune_id": "foggia",
     "titolo": "Natale al Borgo – Escursione nel bosco dell'Incoronata",
@@ -1000,7 +880,7 @@
     ]
   },
   {
-    "id": 26,
+    "id": 23,
     "comune": "Foggia",
     "comune_id": "foggia",
     "titolo": "Natale al Borgo – Laboratorio 'La Tavola Natalizia'",
@@ -1040,7 +920,7 @@
     ]
   },
   {
-    "id": 27,
+    "id": 24,
     "comune": "Foggia",
     "comune_id": "foggia",
     "titolo": "Natale al Borgo – Laboratorio 'Le conserve di Natale'",
@@ -1080,7 +960,7 @@
     ]
   },
   {
-    "id": 28,
+    "id": 25,
     "comune": "Foggia",
     "comune_id": "foggia",
     "titolo": "Natale al Borgo – Aperitivo del Borgo",
@@ -1120,7 +1000,7 @@
     ]
   },
   {
-    "id": 29,
+    "id": 26,
     "comune": "Foggia",
     "comune_id": "foggia",
     "titolo": "Natale al Borgo – Spettacolo di arte di strada",
@@ -1160,7 +1040,7 @@
     ]
   },
   {
-    "id": 30,
+    "id": 27,
     "comune": "Foggia",
     "comune_id": "foggia",
     "titolo": "Natale al Borgo – Area giochi antichi per famiglie",
@@ -1200,7 +1080,7 @@
     ]
   },
   {
-    "id": 31,
+    "id": 28,
     "comune": "Foggia",
     "comune_id": "foggia",
     "titolo": "Natale al Borgo – Concerto Gospel della Vigilia",
@@ -1240,7 +1120,7 @@
     ]
   },
   {
-    "id": 32,
+    "id": 29,
     "comune": "Foggia",
     "comune_id": "foggia",
     "titolo": "Lumina Mystica – Videomapping nel centro storico",
@@ -1280,7 +1160,7 @@
     ]
   },
   {
-    "id": 33,
+    "id": 30,
     "comune": "Foggia",
     "comune_id": "foggia",
     "titolo": "Accensione dell’albero di Natale a Foggia",
@@ -1320,7 +1200,7 @@
     ]
   },
   {
-    "id": 34,
+    "id": 31,
     "comune": "Foggia",
     "comune_id": "foggia",
     "titolo": "Concerto di Capodanno a Foggia",
@@ -1360,7 +1240,7 @@
     ]
   },
   {
-    "id": 35,
+    "id": 32,
     "comune": "Brindisi",
     "comune_id": "brindisi",
     "titolo": "Villaggio di Babbo Natale",
@@ -1400,7 +1280,7 @@
     ]
   },
   {
-    "id": 36,
+    "id": 33,
     "comune": "Brindisi",
     "comune_id": "brindisi",
     "titolo": "Christmas Shopping Day",
@@ -1440,7 +1320,7 @@
     ]
   },
   {
-    "id": 37,
+    "id": 34,
     "comune": "Brindisi",
     "comune_id": "brindisi",
     "titolo": "Teatro dei Burattini - Ferraiolo",
@@ -1480,7 +1360,7 @@
     ]
   },
   {
-    "id": 38,
+    "id": 35,
     "comune": "Brindisi",
     "comune_id": "brindisi",
     "titolo": "Concerto di Capodanno al Teatro Verdi",
@@ -1520,7 +1400,7 @@
     ]
   },
   {
-    "id": 39,
+    "id": 36,
     "comune": "Brindisi",
     "comune_id": "brindisi",
     "titolo": "Concerto della Notte di Capodanno",
@@ -1560,7 +1440,7 @@
     ]
   },
   {
-    "id": 40,
+    "id": 37,
     "comune": "Bari",
     "comune_id": "bari",
     "titolo": "ACCENSIONE ALBERO DI NATALE",
@@ -1600,7 +1480,7 @@
     ]
   },
   {
-    "id": 41,
+    "id": 38,
     "comune": "Bari",
     "comune_id": "bari",
     "titolo": "BARI ACCENDE IL NATALE",
@@ -1640,7 +1520,7 @@
     ]
   },
   {
-    "id": 42,
+    "id": 39,
     "comune": "Bari",
     "comune_id": "bari",
     "titolo": "CAPODANNO A BARI",
@@ -1680,7 +1560,7 @@
     ]
   },
   {
-    "id": 43,
+    "id": 40,
     "comune": "Bari",
     "comune_id": "bari",
     "titolo": "NATALE NEI MUNICIPI",
