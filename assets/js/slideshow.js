@@ -22,9 +22,19 @@
   });
 
   function vai(k) {
-    i = (k + n) % n;
+    // A fine dello slide delle foto, ricomincia sempre dalla prima
+    if (k >= n) {
+      i = 0;
+    } else if (k < 0) {
+      i = n - 1;
+    } else {
+      i = k;
+    }
     Array.prototype.forEach.call(pista.children, function (f, j) {
-      f.classList.toggle('is-attiva', j === i); f.setAttribute('aria-hidden', j === i ? 'false' : 'true');
+      var attiva = (j === i);
+      f.classList.toggle('is-attiva', attiva);
+      f.setAttribute('aria-hidden', attiva ? 'false' : 'true');
+      f.style.zIndex = attiva ? '2' : '1';
     });
     Array.prototype.forEach.call(dots.children, function (d, j) {
       d.classList.toggle('is-attiva', j === i);

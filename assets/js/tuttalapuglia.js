@@ -438,7 +438,7 @@ COMUNI.forEach(function (c, i) {
 /* ---------- menu ---------- */
 
   function nomeComuneHtml(c) {
-    return '<span class="tlr-mv-pre">' + esc(c.prefisso || '') + ' </span><span class="tlr-mv-tema">' + esc(c.nome) + '</span>';
+    return '<span class="tlr-mv-tema">' + esc(c.nome) + '</span>';
   }
   function menuTutti() {
     return '<ul class="tlr-menu tlr-menu--tutti"><li><a class="tlr-mv" href="#tutti" data-vista="tutti">' +
@@ -700,8 +700,8 @@ COMUNI.forEach(function (c, i) {
       var max = riga.scrollWidth - riga.clientWidth;
       box.classList.toggle('is-fermo', max <= 1);
       box.classList.toggle('is-fine', max > 1 && riga.scrollLeft >= max - 1);
-      if (prec) { prec.disabled = riga.scrollLeft <= 1; }
-      if (succ) { succ.disabled = riga.scrollLeft >= max - 1; }
+      if (prec) { prec.disabled = false; }
+      if (succ) { succ.disabled = false; }
       if (pollice && riga.scrollWidth) {
         var quota = riga.clientWidth / riga.scrollWidth;
         var punto = max > 0 ? riga.scrollLeft / max : 0;
@@ -715,8 +715,16 @@ COMUNI.forEach(function (c, i) {
     [prec, succ].forEach(function (btn) {
       if (!btn) { return; }
       btn.addEventListener('click', function () {
-        var verso = parseInt(btn.getAttribute('data-tlr-passo'), 10);
-        riga.scrollBy({ left: verso * passo(), behavior: RIDOTTO ? 'auto' : 'smooth' });
+        var verso = parseInt(btn.getAttribute('data-tlr-passo'), 10) || 1;
+        var max = riga.scrollWidth - riga.clientWidth;
+        if (verso > 0 && riga.scrollLeft >= max - 20) {
+          // A fine dello slide delle foto, ricomincia dalla prima
+          riga.scrollTo({ left: 0, behavior: RIDOTTO ? 'auto' : 'smooth' });
+        } else if (verso < 0 && riga.scrollLeft <= 20) {
+          riga.scrollTo({ left: max, behavior: RIDOTTO ? 'auto' : 'smooth' });
+        } else {
+          riga.scrollBy({ left: verso * passo(), behavior: RIDOTTO ? 'auto' : 'smooth' });
+        }
       });
     });
 
