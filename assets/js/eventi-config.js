@@ -5,14 +5,14 @@ window.TLR_CONFIG = {
   fuso: 'Europe/Rome',
 
   comuni: [
-    { id: 'bari', nome: 'Bari', prefisso: 'Natale a' },
-    { id: 'foggia', nome: 'Foggia', prefisso: 'Natale a' },
-    { id: 'barletta', nome: 'Barletta', prefisso: 'Natale a' },
-    { id: 'andria', nome: 'Andria', prefisso: 'Natale a' },
-    { id: 'trani', nome: 'Trani', prefisso: 'Natale a' },
-    { id: 'taranto', nome: 'Taranto', prefisso: 'Natale a' },
-    { id: 'brindisi', nome: 'Brindisi', prefisso: 'Natale a' },
-    { id: 'lecce', nome: 'Lecce', prefisso: 'Natale a' }
+    { id: 'bari', nome: 'Bari', prefisso: '' },
+    { id: 'foggia', nome: 'Foggia', prefisso: '' },
+    { id: 'barletta', nome: 'Barletta', prefisso: '' },
+    { id: 'andria', nome: 'Andria', prefisso: '' },
+    { id: 'trani', nome: 'Trani', prefisso: '' },
+    { id: 'taranto', nome: 'Taranto', prefisso: '' },
+    { id: 'brindisi', nome: 'Brindisi', prefisso: '' },
+    { id: 'lecce', nome: 'Lecce', prefisso: '' }
   ],
 
   slideshow: {

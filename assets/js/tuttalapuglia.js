@@ -341,9 +341,9 @@ COMUNI.forEach(function (c, i) {
   }
 
   function vistaComune(c, eventi) {
-    var h = '<header class="tlr-vhead"><p class="tlr-occhiello">' + esc((c.prefisso || 'Comune di') + ' ' + c.nome) + '</p>' +
+    var h = '<header class="tlr-vhead"><p class="tlr-occhiello">' + esc((c.prefisso ? c.prefisso + ' ' : 'Comune di ') + c.nome) + '</p>' +
       '<h2 class="tlr-vtit" id="tlr-vtit" tabindex="-1">' + esc(c.nome) + '</h2>' +
-      '<p class="tlr-vconta">' + contaHtml(eventi) + '</p>';
+      '<p class="tlr-vconta">' + contaHtml(eventi) + ' · <a href="#tutti" style="color:var(--tlr-azzurro);font-weight:700;text-decoration:underline;">Mostra tutti gli eventi</a></p>';
     var cats = categorieDi(eventi);
     if (cats.length) {
       h += '<p class="tlr-filtri-k">Categorie di questo comune</p>' +
@@ -581,6 +581,11 @@ COMUNI.forEach(function (c, i) {
     area.setAttribute('aria-busy', 'true');
     aggiornaMenu(v.menu);
     titolo(v.nome);
+
+    // Mostra il tasto 'Tutti gli eventi' nell'header filtri quando siamo in un comune o filtro specifico
+    document.querySelectorAll('#tlr-btn-tutti-header').forEach(function (btn) {
+      btn.style.display = (v.tipo === 'tutti') ? 'none' : 'inline-flex';
+    });
 
     var lavoro;
     if (v.tipo === 'tutti') {
